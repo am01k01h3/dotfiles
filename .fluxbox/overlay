@@ -1,0 +1,8 @@
+! The following line will prevent styles from setting the background.
+! background: none
+#menu.title.font: sans-8:bold
+*font:	verdana-8:halo
+#*font:	lucidasans-8
+#*font:	sans-8
+#menu.itemHeight:	18
+

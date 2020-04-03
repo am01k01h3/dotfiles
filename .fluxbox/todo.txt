@@ -1,0 +1,55 @@
+TO DO
+-----
+  -[ ] github
+    -[ ] check in dot files
+  -[ ] urxvt auto copy to clipboard
+  -[ ] Rofi add shutdown menu
+  -[ ] vim default color scheme for conf files
+
+May be later
+  -[ ] try out lemonbar
+  -[ ] Fluxbox Custom Buttons
+
+=====
+DONE
+
+  -[X] VIM colors
+  -[x] vifm colors: gruvbox
+  -[x] vifm: make more usable
+  -[x] Make Dmenu prettier
+    -[x] Move to center of screen
+    -[x] Drop down menus
+
+  -[x] Fluxbox Reside windows with keyboard shortcuts
+    -[x] Win key brings up (start) menu
+    -[x] Win+x brings up exit/shutdown menu
+    -[x] Alt+space brings up window menu
+    -[x] Win+Left
+
+  -[x] Top bar with System resources
+    -[x] CPU%
+    -[x] CPU graph
+    -[x] Memory %
+    -[x] Mem graph
+    -[x] clock
+    -[ ] battery
+    -[ ] Volume
+    -[x] Disk usage
+    -[ ] align text properly i.e. no shifting text
+
+WONT DO
+  -[ ] VIM https://github.com/hardcoreplayers/gruvbox9 
+  -[ ] https://www.reddit.com/r/unixporn/comments/byjq49/ocvim_neovim_tmux_zsh_config/
+    -[ ] https://github.com/hardcoreplayers/ThinkVim
+      -[ ] https://github.com/universal-ctags/ctags
+        -[ ] https://github.com/enechaev/packcc
+	  -[ ] https://github.com/universal-ctags/ctags-snap
+	    -[x] sudo snap install universal-ctags
+
+
+=====
+[x]
+[X]
+[✔]
+☑
+

@@ -1,0 +1,92 @@
+[app] (name=tint2)
+  [Layer]	{12}
+[end]
+[app] (name=google-chrome) (class=Google-chrome)
+  [Workspace]	{2}
+  [Deco]	{NONE}
+  [Maximized]	{yes}
+[end]
+[app] (name=sakura) (class=Sakura)
+  [Deco]	{NONE}
+  [Sticky]	{yes}
+  [Maximized]	{yes}
+[end]
+[app] (name=urxvt) (class=URxvt)
+  [Dimensions]	{50% 50%}
+  [Deco]	{NONE}
+  [Maximized]	{no}
+[end]
+[app] (name=feh) (class=feh)
+  [Deco]	{NONE}
+  [Maximized]	{yes}
+[end]
+[app] (name=shotwell) (class=Shotwell)
+  [Deco]	{NONE}
+  [Maximized]	{yes}
+[end]
+[app] (name=leafpad) (class=Leafpad)
+  [Dimensions]	{49% 49%}
+[end]
+[app] (name=vlc) (class=Vlc) (role=vlc-main)
+  [Position]	(UPPERLEFT)	{0 0}
+  [Deco]	{NONE}
+[end]
+[app] (name=gcalctool) (class=Gcalctool) (role=gcalctool)
+  [Position]	(RIGHT)	{0 0}
+[end]
+[transient] (name=shotwell) (class=Shotwell)
+  [Position]	(UPPERLEFT)	{0 0}
+[end]
+[app] (name=Navigator) (class=Firefox) (role=browser)
+  [Deco]	{NONE}
+  [Maximized]	{yes}
+[end]
+[app] (name=luakit) (class=luakit)
+  [Deco]	{NONE}
+  [Maximized]	{yes}
+[end]
+[app] (name=dwb) (class=Dwb)
+  [Deco]	{NONE}
+  [Maximized]	{yes}
+[end]
+[app] (name=Chromium) (class=Chromium) (role=browser)
+  [Deco]	{NONE}
+  [Maximized]	{yes}
+[end]
+[app] (name=ROX-Filer) (class=ROX-Filer) (role=/home/user/Dropbox)
+  [Dimensions]	{49% 49%}
+  [Position]	(UPPERLEFT)	{0% 0%}
+[end]
+[app] (name=[Ww]bar*)
+  [Sticky]	{yes}
+  [Layer]	{12}
+[end]
+[app] (name=netsurf-gtk3) (class=Netsurf-gtk3)
+  [Deco]	{NONE}
+  [Maximized]	{yes}
+  [Fullscreen]	{no}
+[end]
+[app] (name=Navigator) (class=firefox) (role=browser)
+  [Deco]	{NONE}
+  [Fullscreen]	{no}
+[end]
+[app] (name=pcmanfm-qt) (class=pcmanfm-qt)
+  [Dimensions]	{49% 49%}
+[end]
+[app] (name=gedit) (class=Gedit) (role=gedit-window-1585426874-838143-0-macmini)
+  [Dimensions]	{49% 49%}
+  [Deco]	{NONE}
+[end]
+[app] (name=xterm) (class=XTerm)
+  [Dimensions]	{49% 49%}
+[end]
+[app] (name=surf) (class=Surf) (role=Surf\[6\])
+  [Dimensions]	{49% 49%}
+[end]
+[app] (name=fbrun) (class=FbRun)
+  [Dimensions]	{16% 5%}
+  [Position]	(CENTER)	{0% 0%}
+[end]
+[app] (name=surf) (class=Surf) (role=Surf\[7\])
+  [Dimensions]	{75% 75%}
+[end]

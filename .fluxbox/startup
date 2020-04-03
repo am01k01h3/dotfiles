@@ -1,0 +1,56 @@
+#!/bin/sh
+
+
+fluxbox &
+fbpid=$!
+
+
+sleep 1
+
+
+# Load bitmap fonts
+xset fp+ ~/.fonts/misc &
+
+## Who don't love an eye candy shadow?? Launch compton
+compton -b --config ~/.config/compton.conf &
+
+
+## Load settings
+xmodmap ~/.Xmodmap &
+~/.fluxbox/bin/generate_fluxbox_menu &
+nitrogen --restore &
+#compton -b &
+pulseaudio --start &
+start-pulseaudio-x11 &
+dbus-launch --exit-with-session &
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+
+## System Tray Apps
+conky -c /home/amol/.fluxbox/conky/bar.conkyrc &
+#conky -c /home/amol/.fluxbox/conky/conky_maia &
+nm-applet &
+xfce4-power-manager &
+pamac-tray &
+ff-theme-util &
+fix_xcursor &
+/usr/bin/python3 /usr/bin/blueman-applet >/dev/null &
+
+#volumeicon &
+pasystray &
+
+qlipper &
+#clipit &
+
+xautolock -time 10 -locker blurlock &
+
+## User Apps
+#~/.fluxbox/bin/terminal &
+urxvt &
+syncthing -no-browser &
+
+## Additional Eye Candy
+#xcompmgr -c -C -t-5 -l-5 -r4.2 -o.55 &
+
+
+#exec fluxbox
+wait $fbpid

@@ -1,0 +1,151 @@
+# Automatically generated file. Do not edit (see /usr/share/doc/menu/html/index.html)
+
+   [submenu] (Applications) {}
+      [submenu] (Accessories) {}
+         [exec] (Brasero) {/usr/bin/brasero} </home/user/.icons/brasero.png>
+         [exec] (File-Roller) {/usr/bin/file-roller} </usr/share/pixmaps/file-roller.xpm>
+         [exec] (LeafPad) {/usr/bin/leafpad} </home/user/.icons/leafpad.png>
+         [exec] (Nautilus) {/usr/bin/nautilus} </usr/share/pixmaps/nautilus.xpm>
+         [exec] (PCManFM) {/usr/bin/pcmanfm} </home/user/.icons/pcmanfm.png>
+         [exec] (xpad) {/usr/bin/xpad} </usr/share/pixmaps/xpad.xpm>
+      [end]
+      [submenu] (AudioVideo) {}
+         [exec] (Google Music Manager) {/opt/google/musicmanager/google-musicmanager} </opt/google/musicmanager/product_logo_32.xpm>
+      [end]
+      [submenu] (Graphics) {}
+         [exec] (ImageMagick) {/usr/bin/display logo:} </usr/share/pixmaps/display.xpm>
+         [exec] (Shotwell) {/usr/bin/shotwell} <~/.icons/shotwell.png>
+         [exec] (The GIMP) {/usr/bin/gimp} </usr/share/pixmaps/gimp.xpm>
+      [end]
+      [submenu] (Internet) {}
+         [exec] (Chromium Browser) {/usr/bin/chromium-browser} </usr/share/pixmaps/chromium-browser.png>
+         [exec] (Firefox Browser) {/usr/bin/firefox} </usr/share/pixmaps/firefox.xpm>
+         [exec] (Pidgin) {/usr/bin/pidgin} </usr/share/pixmaps/pidgin-menu.xpm>
+         [exec] (Transmission BitTorrent Client (GTK\)) {/usr/bin/transmission-gtk} </usr/share/pixmaps/transmission.xpm>
+      [end]
+      [submenu] (Office) {}
+         [exec] (AbiWord Word Processor) {/usr/bin/abiword} </usr/share/pixmaps/abiword.xpm>
+         [exec] (Evince) {/usr/bin/evince} </usr/share/pixmaps/evince.xpm>
+         [exec] (gnumeric) {/usr/bin/gnumeric} </usr/share/pixmaps/gnome-gnumeric.xpm>
+         [exec] (LibreOffice Base) {/usr/bin/libreoffice --base} </home/user/.icons/libreoffice34-base.png>
+         [exec] (LibreOffice Calc) {/usr/bin/libreoffice --calc} </home/user/.icons/libreoffice34-calc.png>
+         [exec] (LibreOffice Draw) {/usr/bin/libreoffice --draw} </home/user/.icons/libreoffice34-draw.png>
+         [exec] (LibreOffice Impress) {/usr/bin/libreoffice --impress} </home/user/.icons/libreoffice34-impress.png>
+         [exec] (LibreOffice Math) {/usr/bin/libreoffice --math} </home/user/.icons/libreoffice34-main.png>
+         [exec] (LibreOffice Writer) {/usr/bin/libreoffice --writer} </home/user/.icons/libreoffice34-writer.png>
+      [end]
+      [submenu] (Preferences) {}
+         [exec] (LXAppearance) {lxappearance} <preferences-desktop-theme>
+         [exec] (lxrandr) {/usr/bin/lxrandr} </home/user/.icons/grandr.png>
+         [exec] (nitrogen) {/usr/bin/nitrogen} </home/user/.icons/nitrogen.png>
+         [exec] (Openbox Configuration Manager) {/usr/bin/obconf} </usr/share/pixmaps/obconf.xpm>
+         [exec] (Time Admin) {/usr/bin/time-admin} </usr/share/gnome-system-tools/pixmaps/time.xpm>
+      [end]
+      [submenu] (Sound) {}
+         [exec] (Ex Falso) {/usr/bin/exfalso} <>
+         [exec] (moc) { x-terminal-emulator -T "moc" -e /usr/bin/mocp} <>
+      [end]
+      [submenu] (Sound & Video) {}
+         [exec] (Audacious) {/usr/bin/audacious2} </home/user/.icons/audacious.png>
+         [exec] (GNOME MPlayer) {gnome-mplayer} </usr/share/pixmaps/gnome-mplayer.xpm>
+         [exec] (guvcview) {/usr/bin/guvcview} <>
+         [exec] (minitube) {/usr/bin/minitube} </home/user/.icons/minitube.png>
+         [exec] (Rhythmbox) {/usr/bin/rhythmbox} </usr/share/pixmaps/rhythmbox-small.xpm>
+         [exec] (VLC media player) {/usr/bin/qvlc} </usr/share/icons/hicolor/32x32/apps/vlc.xpm>
+      [end]
+      [submenu] (System) {}
+         [submenu] (Administration) {}
+            [exec] (Aptitude (terminal\)) { x-terminal-emulator -T "Aptitude (terminal)" -e /usr/bin/aptitude-curses} <>
+            [exec] (Debian Task selector) { x-terminal-emulator -T "Debian Task selector" -e su-to-root -c tasksel} <>
+            [exec] (DSL/PPPoE configuration tool) { x-terminal-emulator -T "DSL/PPPoE configuration tool" -e /usr/sbin/pppoeconf} </usr/share/pixmaps/pppoeconf.xpm>
+            [exec] (OpenJDK Java 6 Policy Tool) {/usr/lib/jvm/java-6-openjdk-amd64/bin/policytool} </usr/share/pixmaps/openjdk-6.xpm>
+            [exec] (pppconfig) { x-terminal-emulator -T "pppconfig" -e su-to-root -p root -c /usr/sbin/pppconfig} <>
+            [exec] (Shares Admin) {/usr/bin/shares-admin} </usr/share/gnome-system-tools/pixmaps/shares.xpm>
+            [exec] (User accounts Admin) {/usr/bin/users-admin} </usr/share/gnome-system-tools/pixmaps/users.xpm>
+         [end]
+         [submenu] (Command Line Tools) {}
+            [exec] (Bash) { x-terminal-emulator -T "Bash" -e /bin/bash --login} <>
+            [exec] (Bc) { x-terminal-emulator -T "Bc" -e /usr/bin/bc} <>
+            [exec] (Dash) { x-terminal-emulator -T "Dash" -e /bin/dash -i} <>
+            [exec] (Dc) { x-terminal-emulator -T "Dc" -e /usr/bin/dc} <>
+            [exec] (Info) { x-terminal-emulator -T "Info" -e info} <>
+            [exec] (Input Method Swicher) { x-terminal-emulator -T "Input Method Swicher" -e /usr/bin/im-switch} <>
+            [exec] (Ksh) { x-terminal-emulator -T "Ksh" -e /bin/ksh93} <>
+            [exec] (Pstree) { x-terminal-emulator -T "Pstree" -e /usr/bin/pstree.x11} </usr/share/pixmaps/pstree16.xpm>
+            [exec] (Sh) { x-terminal-emulator -T "Sh" -e /bin/sh --login} <>
+            [exec] (Telnet) { x-terminal-emulator -T "Telnet" -e /usr/bin/telnet} <>
+            [exec] (Top) { x-terminal-emulator -T "Top" -e /usr/bin/top} <>
+         [end]
+         [submenu] (Programming) {}
+            [exec] (GDB) { x-terminal-emulator -T "GDB" -e /usr/bin/gdb} <>
+            [exec] (Python (v2.7\)) { x-terminal-emulator -T "Python (v2.7)" -e /usr/bin/python2.7} </usr/share/pixmaps/python2.7.xpm>
+            [exec] (Python (v3.2\)) { x-terminal-emulator -T "Python (v3.2)" -e /usr/bin/python3.2} </usr/share/pixmaps/python3.2.xpm>
+            [exec] (Tclsh8.5) { x-terminal-emulator -T "Tclsh8.5" -e /usr/bin/tclsh8.5} <>
+         [end]
+         [submenu] (Terminal Emulators) {}
+            [exec] (Rxvt-Unicode) {urxvt} </usr/share/pixmaps/urxvt.xpm>
+            [exec] (Rxvt-Unicode (Black, Xft\)) {urxvt -fn "xft:Mono" -rv} </usr/share/pixmaps/urxvt.xpm>
+            [exec] (Terminal) {/usr/bin/lxterminal} </usr/share/pixmaps/lxterminal.xpm>
+            [exec] (XTerm) {xterm} </usr/share/pixmaps/xterm-color_32x32.xpm>
+            [exec] (X-Terminal as root (GKsu\)) {/usr/bin/gksu -u root /usr/bin/x-terminal-emulator} </usr/share/pixmaps/gksu-debian.xpm>
+            [exec] (XTerm (Unicode\)) {uxterm} </usr/share/pixmaps/xterm-color_32x32.xpm>
+         [end]
+         [submenu] (Tools) {}
+            [exec] (Character map) {/usr/bin/gucharmap} <>
+            [exec] (Conky) { x-terminal-emulator -T "Conky" -e /usr/bin/conky} <>
+            [exec] (GNOME partition editor) {su-to-root -X -c /usr/sbin/gparted} </usr/share/pixmaps/gparted.xpm>
+            [exec] (lxtask) {/usr/bin/lxtask} <>
+            [exec] (Synaptic Package Manager) {synaptic-pkexec} </usr/share/synaptic/pixmaps/synaptic_32x32.xpm>
+            [exec] (System Information) {/usr/bin/hardinfo} </usr/share/pixmaps/hardinfo.xpm>
+            [exec] (xtightvncviewer) {/usr/bin/xtightvncviewer} <>
+         [end]
+         [submenu] (Window Managers) {}
+            [restart] (FluxBox)  {/usr/bin/startfluxbox}
+            [restart] (Openbox)  {/usr/bin/openbox}
+         [end]
+         [submenu] (X11 Apps) {}
+            [exec] (Activate ScreenSaver (Next\)) {/usr/bin/xscreensaver-command -next} <>
+            [exec] (Activate ScreenSaver (Previous\)) {/usr/bin/xscreensaver-command -prev} <>
+            [exec] (Activate ScreenSaver (Random\)) {/usr/bin/xscreensaver-command -activate} <>
+            [exec] (Console Matrix (Text\)) { x-terminal-emulator -T "Console Matrix (Text)" -e /usr/bin/cmatrix} <>
+            [exec] (Console Matrix (Virtual Console\)) { x-terminal-emulator -T "Console Matrix (Virtual Console)" -e /usr/bin/cmatrix -l} <>
+            [exec] (Console Matrix (X11\)) {/usr/bin/cmatrix -x} <>
+            [exec] (Demo Screen Hacks) {/usr/bin/xscreensaver-command -demo} <>
+            [exec] (Disable XScreenSaver) {/usr/bin/xscreensaver-command -exit} <>
+            [exec] (Editres) {editres} <>
+            [exec] (Enable XScreenSaver) {/usr/bin/xscreensaver} <>
+            [exec] (Lock Screen (XScreenSaver\)) {/usr/bin/xscreensaver-command -lock} <>
+            [exec] (Oclock) {oclock} <>
+            [exec] (Reinitialize XScreenSaver) {/usr/bin/xscreensaver-command -restart} <>
+            [exec] (ScreenSaver Preferences) {/usr/bin/xscreensaver-command -prefs} <>
+            [exec] (Xbiff) {xbiff} <>
+            [exec] (Xcalc) {xcalc} <>
+            [exec] (Xclipboard) {xclipboard} <>
+            [exec] (Xclock (analog\)) {xclock -analog} <>
+            [exec] (Xclock (digital\)) {xclock -digital -update 1} <>
+            [exec] (Xconsole) {xconsole -file /dev/xconsole} <>
+            [exec] (Xditview) {xditview} <>
+            [exec] (Xedit) {xedit} <>
+            [exec] (Xev) {x-terminal-emulator -e xev} <>
+            [exec] (Xeyes) {xeyes} <>
+            [exec] (Xfontsel) {xfontsel} <>
+            [exec] (Xkill) {xkill} <>
+            [exec] (Xload) {xload} <>
+            [exec] (Xlogo) {xlogo} <>
+            [exec] (Xmag) {xmag} <>
+            [exec] (Xman) {xman} <>
+            [exec] (Xrefresh) {xrefresh} <>
+            [exec] (Xvidtune) {xvidtune} <>
+            [exec] (X Window Snapshot) {xwd | xwud} <>
+         [end]
+      [end]
+   [end]
+   [submenu] (Games) {}
+      [submenu] (Board) {}
+         [exec] (GnuChess) { x-terminal-emulator -T "GnuChess" -e /usr/games/gnuchess} <>
+      [end]
+      [submenu] (Card) {}
+         [exec] (Gnome FreeCell) {/usr/games/sol --variation freecell} </usr/share/pixmaps/freecell.xpm>
+         [exec] (Gnome Solitaire Games) {/usr/games/sol} </usr/share/pixmaps/aisleriot.xpm>
+      [end]
+   [end]

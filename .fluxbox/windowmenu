@@ -1,0 +1,27 @@
+[begin]
+  [maximize]
+  [deiconify] (Restore)
+  [iconify] (Minimize)
+  [ArrangeWindowsVertical	(class=[current]) ]	(Arrange Windows Vertical)
+  [ArrangeWindowsHorizontal	(class=[current]) ] 	(Arrange Windows Horizontal)
+  [ArrangeWindowsStackLeft	(class=[current]) ]	(Arrange Windows Stack Left)
+  [ArrangeWindowsStackRight	(class=[current]) ]	(Arrange Windows Stack Right)
+  [ArrangeWindowsStackTop	(class=[current]) ]	(Arrange Windows Stack Top)
+  [ArrangeWindowsStackBottom	(class=[current]) ]	(Arrange Windows Stack Bottom)
+  [separator]
+  [submenu] (Something Else)
+    [shade]
+    [stick]
+    [MaximizeVertical] (Maximize Vertical)
+    [MaximizeHorizontal] (Maximize Horizontal)
+    [raise]
+    [lower]
+    [settitledialog]
+    [sendto]
+    [layer]
+    [alpha]
+    [extramenus]
+    [end]
+  [separator]
+  [close]
+[end]
