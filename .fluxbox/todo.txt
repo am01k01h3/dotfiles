@@ -1,6 +1,7 @@
 TO DO
 -----
   -[ ] Update README.md
+    -[ ] Add screenshot images
   -[ ] urxvt auto copy to clipboard
   -[ ] Rofi add shutdown menu
   -[ ] vim default color scheme for conf files

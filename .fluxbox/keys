@@ -106,7 +106,8 @@ Mod1 F1				:ToggleCmd {Exec conky -c ~/.fluxbox/conky/ubuntu.conkyrc} {pkill con
 # Printscreen
 Print				:Exec ~/.fluxbox/bin/screenshot
 
-Mod4 e				:Exec pcmanfm-qt
+Mod4 e				:Exec rox-filer -n
+#Mod4 e				:Exec pcmanfm-qt
 Control Mod1 t			:Exec urxvt
 Mod4 Return			:Exec urxvt
 Control Mod1 i			:Exec firefox
