@@ -18,7 +18,7 @@ Long time fluxbox user here. There were few things about my fluxbox environment 
 ![Main Menu](https://github.com/am01k01h3/dotfiles/blob/master/Pictures/Screenshot%20from%202020-04-02%2009-42-07.png)
 ![Exit Menu](https://github.com/am01k01h3/dotfiles/blob/master/Pictures/Screenshot%20from%202020-04-02%2009-40-18.png)
 ![Run Dialog](https://github.com/am01k01h3/dotfiles/blob/master/Pictures/Screenshot%20from%202020-04-02%2009-43-18.png)
-![Terminals]()
+![Terminals](https://github.com/am01k01h3/dotfiles/blob/master/Pictures/Screenshot%20from%202020-04-03%2020-59-00.png)
 
 ## Why do this?
 Fluxbox is feature-rich, light-weight and extremely customizable, while maintaining its snappy speed and still looks pretty. Once I familiarized with how to use it efficiently, I always missed some of its features in other environments. It can remember per app customizations like window sizes, placement, dimensions, window decorations (i.e borders and title bar) and so on. Once the apps are customized to your liking, it will work consistently forever. I've migrated from system to system multiple times and all I have to do is carry the ~/.fluxbox directory to the new system, and it brings with it all the customizations. This repo tries to keep track of everything that's linked to the working desktop environment.
