@@ -17,6 +17,7 @@
     [exec] (FeatherPad) {featherpad} <>
     [exec] (Files) {nautilus} </usr/share/icons/Moka/256x256/apps/org.gnome.Nautilus.png>
     [exec] (Fonts) {gnome-font-viewer} </usr/share/icons/oxygen/base/64x64/apps/preferences-desktop-font.png>
+    [exec] (GVim) {gvim} </usr/share/icons/Moka/256x256/apps/gvim.png>
     [exec] (Help) {yelp} </usr/share/icons/oxygen/base/64x64/apps/help-browser.png>
     [exec] (KeePassXC) {keepassxc} </usr/share/icons/hicolor/256x256/apps/keepassxc.png>
     [exec] (Leafpad) {leafpad} </home/amol/.fluxbox/icons/leafpad.png>

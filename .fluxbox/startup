@@ -7,6 +7,11 @@ fbpid=$!
 
 sleep 1
 
+# Load SSH Keys
+grep -l "BEGIN RSA PRIVATE KEY" ~/.ssh/* | while read file
+do
+  ssh-add "$file"
+done
 
 # Load bitmap fonts
 xset fp+ ~/.fonts/misc &
@@ -16,36 +21,52 @@ compton -b --config ~/.config/compton.conf &
 
 
 ## Load settings
-xmodmap ~/.Xmodmap &
-~/.fluxbox/bin/generate_fluxbox_menu &
+[ -f ~/.Xmodmap ] && xmodmap ~/.Xmodmap &
+[ -f ~/.Xresources ] && xrdb ~/.Xresources
+
+## Generate Menus on startup
+[ -f ~/.fluxbox/bin/generate_fluxbox_menu ] && ~/.fluxbox/bin/generate_fluxbox_menu &
+
+## Restore Wallpaper
 nitrogen --restore &
-#compton -b &
+
 pulseaudio --start &
+
 start-pulseaudio-x11 &
+
 dbus-launch --exit-with-session &
-/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+
+[ -f /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 ] && /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 
 ## System Tray Apps
 conky -c /home/amol/.fluxbox/conky/bar.conkyrc &
 #conky -c /home/amol/.fluxbox/conky/conky_maia &
+
 nm-applet &
-xfce4-power-manager &
-pamac-tray &
-ff-theme-util &
-fix_xcursor &
+#xfce4-power-manager &
+#pamac-tray &
+#ff-theme-util &
+#fix_xcursor &
 /usr/bin/python3 /usr/bin/blueman-applet >/dev/null &
 
+# Sound Icon in Systemtray
 #volumeicon &
 pasystray &
 
+# Clipboard Systemtray
 qlipper &
 #clipit &
 
+# Screen locking
 xautolock -time 10 -locker blurlock &
 
 ## User Apps
 #~/.fluxbox/bin/terminal &
+
+# Start Terminal
 urxvt &
+
+# Start Syncthing
 syncthing -no-browser &
 
 ## Additional Eye Candy

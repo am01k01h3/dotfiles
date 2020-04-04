@@ -1,18 +1,22 @@
 TO DO
 -----
-  -[ ] github
-    -[ ] check in dot files
+  -[ ] Update README.md
   -[ ] urxvt auto copy to clipboard
   -[ ] Rofi add shutdown menu
   -[ ] vim default color scheme for conf files
 
-May be later
+MAYBE LATER
+----- -----
   -[ ] try out lemonbar
   -[ ] Fluxbox Custom Buttons
 
 =====
 DONE
+----
 
+  -[x] github
+    -[x] check in dot files
+    -[x] setup ssh
   -[X] VIM colors
   -[x] vifm colors: gruvbox
   -[x] vifm: make more usable
@@ -38,6 +42,7 @@ DONE
     -[ ] align text properly i.e. no shifting text
 
 WONT DO
+---- --
   -[ ] VIM https://github.com/hardcoreplayers/gruvbox9 
   -[ ] https://www.reddit.com/r/unixporn/comments/byjq49/ocvim_neovim_tmux_zsh_config/
     -[ ] https://github.com/hardcoreplayers/ThinkVim

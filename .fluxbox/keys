@@ -34,7 +34,8 @@ Mod4 m                          :Maximize
 Mod4 f                          :Fullscreen
 Mod4 s                          :Shade
 Mod4 t                          :ToggleDecor
-Mod4 a                          :ArrangeWindows (Name!=tint2) (class!=conky)
+Mod4 a                          :ArrangeWindowsHorizontal (Name!=tint2) (class!=conky)
+#Mod4 a                          :ArrangeWindows (Name!=tint2) (class!=conky)
 #Mod4 h                          :ArrangeWindowsHorizontal (Name!=tint2) (class!=conky)
 #Mod4 v                          :ArrangeWindowsVertical (Name!=tint2) (class!=conky)
 Mod4 d                          :ShowDesktop (Name!=tint2) (class!=conky)

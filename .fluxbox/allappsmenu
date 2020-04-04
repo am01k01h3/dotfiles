@@ -70,6 +70,7 @@
     [exec] (GNU Image Manipulation Program) {gimp-2.8} </usr/share/icons/Moka/256x256/apps/gimp.png>
     [exec] (gThumb) {gthumb} </usr/share/icons/hicolor/256x256/apps/org.gnome.gThumb.png>
     [exec] (gtkpod) {gtkpod} </usr/share/icons/Moka/256x256/apps/gtkpod.png>
+    [exec] (GVim) {gvim} </usr/share/icons/Moka/256x256/apps/gvim.png>
     [exec] (Handler for snap:// URIs) {/usr/bin/snap} </usr/share/applications/snap-handle-link.desktop>
     [exec] (Help) {yelp} </usr/share/icons/oxygen/base/64x64/apps/help-browser.png>
     [exec] (Hibernate) {lxqt-leave} </usr/share/icons/oxygen/base/64x64/actions/system-suspend-hibernate.png>
