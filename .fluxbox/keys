@@ -16,7 +16,8 @@ F4				:ToggleCmd {HideMenus} {custommenu ~/.fluxbox/allappsmenu}
 F10				:Exec xdotool mousemove 1900 41; fluxbox-remote 'CustomMenu ~/.fluxbox/exitmenu'
 Mod4 x				:Exec xdotool mousemove 1900 41; fluxbox-remote 'CustomMenu ~/.fluxbox/exitmenu'
 
-OnDesktop Mouse1		:ToggleCmd {HideMenus} {CustomMenu ~/.fluxbox/exitmenu}
+OnDesktop Mouse1		:HideMenus
+#OnDesktop Mouse1		:ToggleCmd {HideMenus} {CustomMenu ~/.fluxbox/exitmenu}
 OnDesktop Mouse2		:clientmenu (class!=conky)
 OnDesktop Mouse3		:rootmenu
 #OnToolbar Mouse3		:rootmenu
