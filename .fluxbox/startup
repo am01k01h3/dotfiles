@@ -69,6 +69,7 @@ xautolock -time 10 -locker blurlock &
 # Start Terminal
 #urxvt &
 st -e bash -l &
+st -e tty-clock -B -C 8 -t &
 
 
 # Start Syncthing

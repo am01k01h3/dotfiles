@@ -142,7 +142,7 @@ ${color}Disk Free:${color4}${fs_free /}  \
 ${color}${diskiograph 14,24 ff4444 ff4444}    \
 ${if_up wlp2s0} ${color}NET: up⬆${color3}\
 ${color}${upspeedgraph   wlp2s0 14,24 298876 298876} \
-${color} down⬇${color3}  \
+${color} down⬇${color3}\
 ${color2}${downspeedgraph wlp2s0 14,24  5599cc 5599cc}${endif}     \
     \
 ${color}${time %b %d, %a} ${color5}${time %02k:%M}${color} 
