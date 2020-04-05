@@ -24,6 +24,9 @@ compton -b --config ~/.config/compton.conf &
 [ -f ~/.Xmodmap ] && xmodmap ~/.Xmodmap &
 [ -f ~/.Xresources ] && xrdb ~/.Xresources
 
+# Xdefaults is now deprecated
+#[ -f ~/.Xdefaults ] && xrdb ~/.Xdefaults
+
 ## Generate Menus on startup
 [ -f ~/.fluxbox/bin/generate_fluxbox_menu ] && ~/.fluxbox/bin/generate_fluxbox_menu &
 
@@ -64,7 +67,9 @@ xautolock -time 10 -locker blurlock &
 #~/.fluxbox/bin/terminal &
 
 # Start Terminal
-urxvt &
+#urxvt &
+st -e bash -l &
+
 
 # Start Syncthing
 syncthing -no-browser &

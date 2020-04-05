@@ -1,6 +1,5 @@
 TO DO
 -----
-  -[ ] urxvt auto copy to clipboard
   -[ ] Fix volume keys
   -[ ] Fluxbox Custom Buttons
   -[ ] Rofi add shutdown menu
@@ -19,6 +18,7 @@ MAYBE LATER
 DONE
 ----
 
+  -[x] urxvt auto copy to clipboard
   -[x] Update README.md
     -[x] Add screenshot images 
   -[x] github

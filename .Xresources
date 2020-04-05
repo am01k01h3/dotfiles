@@ -6,19 +6,30 @@ Xft.autohint:  false
 Xft.hintstyle: hintslight
 Xft.lcdfilter: lcddefault
 
-XTerm*background:        #222D31
-XTerm*foreground:        #d8d8d8
 XTerm*pointerColor:      #819400
 XTerm*faceName:          Fixed
 XTerm*faceSize:          11
 XTerm*reverseVideo:      on
 XTerm*selectToClipboard: true
 
-*background:                      #222D31
-*foreground:                      #d8d8d8
+!! Transparency (0-1):
+st.alpha: 0.8
+
+!! Set a default font and font size as below:
+st.font: Monospace-11;
+st*loginShell:      true
+
+! st.termname: st-256color
+! st.borderpx: 2
+
+*.background:    black
+
+!*background:                      #222D31
+!*foreground:                      #d8d8d8
 *fading:                          8
 *fadeColor:                       black
 *cursorColor:                     #819400
+*cursorBlink:                     true
 *pointerColorBackground:          #819400
 !*pointerColorBackground:          #2B2C2B
 *pointerColorForeground:          #d8d8d8
@@ -36,13 +47,17 @@ URxvt.font:                       9x15,xft:TerminessTTFNerdFontMono
 
 URxvt*title:                      ~
 URxvt.depth:                      32
-!URxvt.background:                 [100]#222D31
 URxvt*scrollBar:                  false
 URxvt*mouseWheelScrollPage:       false
-URxvt*cursorBlink:                true
 URxvt*background:                 black
 URxvt*foreground:                 grey
 URxvt*saveLines:                  5000
+
+urxvt*transparent:     true
+urxvt*shading:         20
+urxvt*loginShell:      true
+urxvt*saveLines:       10000
+urxvt*cursorBlink:     true
 
 ! for 'fake' transparency (without Compton) uncomment the following three lines
 ! URxvt*inheritPixmap:            true
@@ -63,6 +78,7 @@ URxvt.keysym.Control-Up:          \033[1;5A
 URxvt.keysym.Shift-Control-Up:    \033[1;6A
 URxvt.keysym.Control-Down:        \033[1;5B
 URxvt.keysym.Shift-Control-Down:  \033[1;6B
+
 URxvt.perl-lib:                   /home/amol/.urxvt/ext
 Urxvt.perl-ext-common:            default,matcher,clipboard,keyboard-select,url-select
 URxvt.urlLauncher:                firefox
@@ -77,7 +93,7 @@ URxvt.keyboard-select.clipboard:  true
 ! special
 *.foreground:   #d1d1d1
 ! *.background:   #221e2d
-*.cursorColor:  #d1d1d1
+!*.cursorColor:  #d1d1d1
 
 ! black
 *.color0:       #272822

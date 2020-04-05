@@ -26,31 +26,31 @@ if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
 
-set -o vi
-color_prompt=yes
-cd ~/.fluxbox
-echo -ne "\033]0;"$ "\007"
+#color_prompt=yes
+#echo -ne "\033]0;"$ "\007"
 #PS1="\033]0;"$BASH_COMMAND"\007$ "
 
-if [ "$color_prompt" = yes ]; then
-    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\
-$ '
-else
-    PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
-fi
-unset color_prompt force_color_prompt
+#if [ "$color_prompt" = yes ]; then
+#    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\
+#$ '
+#else
+#    PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
+#fi
+#unset color_prompt force_color_prompt
 
 # If this is an xterm set the title to user@host:dir
-case "$TERM" in
-xterm*|rxvt*)
-    #PS1="\033]0;$ \007$PS1"
-    PS1="$ "
-    ;;
-*)
-    ;;
-esac
-
-echo -ne "\033]0;"$ "\007"
+#case "$TERM" in
+#xterm*|rxvt*)
+#    #PS1="\033]0;$ \007$PS1"
+#    PS1="$ "
+#    ;;
+#*)
+#    ;;
+#esac
+#
+#echo -ne "\033]0;"$ "\007"
+set -o vi
+cd ~/.fluxbox
 date
 neofetch
 pwd
