@@ -111,6 +111,7 @@ Mod4 e				:Exec pcmanfm
 #Mod4 e				:Exec rox-filer -n
 Control Mod1 t			:Exec urxvt
 Mod4 Return			:Exec urxvt
+Mod1 Return			:Exec st
 Control Mod1 i			:Exec firefox
 #Control Mod1 i			:Exec surf start.duckduckgo.com
 Control Mod1 n			:Exec leafpad

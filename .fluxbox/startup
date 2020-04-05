@@ -54,8 +54,8 @@ nm-applet &
 pasystray &
 
 # Clipboard Systemtray
-qlipper &
-#clipit &
+#qlipper &
+clipit &
 
 # Screen locking
 xautolock -time 10 -locker blurlock &

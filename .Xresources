@@ -24,38 +24,6 @@ XTerm*selectToClipboard: true
 *pointerColorForeground:          #d8d8d8
 !*pointerColorForeground:          #16A085
 
-!! black dark/light
-*color0:                          #222D31
-*color8:                          #585858
-
-!! red dark/light
-*color1:                          #ab4642
-*color9:                          #ab4642
-
-!! green dark/light
-*color2:                          #7E807E
-*color10:                         #8D8F8D
-
-!! yellow dark/light
-*color3:                          #f7ca88
-*color11:                         #f7ca88
-
-!! blue dark/light
-*color4:                          #7cafc2
-*color12:                         #7cafc2
-
-!! magenta dark/light
-*color5:                          #ba8baf
-*color13:                         #ba8baf
-
-!! cyan dark/light
-*color6:                          #1ABB9B
-*color14:                         #1ABB9B
-
-!! white dark/light
-*color7:                          #d8d8d8
-*color15:                         #f8f8f8
-
 Xcursor.theme: xcursor-breeze
 Xcursor.size:                     0
 
@@ -68,7 +36,7 @@ URxvt.font:                       9x15,xft:TerminessTTFNerdFontMono
 
 URxvt*title:                      ~
 URxvt.depth:                      32
-URxvt.background:                 [100]#222D31
+!URxvt.background:                 [100]#222D31
 URxvt*scrollBar:                  false
 URxvt*mouseWheelScrollPage:       false
 URxvt*cursorBlink:                true
@@ -85,6 +53,7 @@ URxvt*saveLines:                  5000
 URxvt.iso14755:                   false
 URxvt.keysym.Shift-Control-V:     eval:paste_clipboard
 URxvt.keysym.Shift-Control-C:     eval:selection_to_clipboard
+URxvt.clipboard.autocopy:         true
 !Xterm escape codes, word by word movement
 URxvt.keysym.Control-Left:        \033[1;5D
 URxvt.keysym.Shift-Control-Left:  \033[1;6D
@@ -94,6 +63,16 @@ URxvt.keysym.Control-Up:          \033[1;5A
 URxvt.keysym.Shift-Control-Up:    \033[1;6A
 URxvt.keysym.Control-Down:        \033[1;5B
 URxvt.keysym.Shift-Control-Down:  \033[1;6B
+URxvt.perl-lib:                   /home/amol/.urxvt/ext
+Urxvt.perl-ext-common:            default,matcher,clipboard,keyboard-select,url-select
+URxvt.urlLauncher:                firefox
+URxvt.matcher.button:	1
+!URxvt.iconFile:		/home/amol/.fluxbox/icons/utilities-terminal.png
+URxvt.iconFile:                   /home/amol/.fluxbox/icons/terminal.png
+
+URxvt.keysym.M-Escape:            perl:keyboard-select:activate
+URxvt.keysym.M-s:                 perl:keyboard-select:search
+URxvt.keyboard-select.clipboard:  true
 
 ! special
 *.foreground:   #d1d1d1
@@ -132,6 +111,37 @@ URxvt.keysym.Shift-Control-Down:  \033[1;6B
 *.color7:       #f8f8f2
 *.color15:      #f9f8f5
 
+!! black dark/light
+!*color0:                          #222D31
+!*color8:                          #585858
+
+!! red dark/light
+!*color1:                          #ab4642
+!*color9:                          #ab4642
+
+!! green dark/light
+!*color2:                          #7E807E
+!*color10:                         #8D8F8D
+
+!! yellow dark/light
+!*color3:                          #f7ca88
+!*color11:                         #f7ca88
+
+!! blue dark/light
+!*color4:                          #7cafc2
+!*color12:                         #7cafc2
+
+!! magenta dark/light
+!*color5:                          #ba8baf
+!*color13:                         #ba8baf
+
+!! cyan dark/light
+!*color6:                          #1ABB9B
+!*color14:                         #1ABB9B
+
+!! white dark/light
+!*color7:                          #d8d8d8
+!*color15:                         #f8f8f8
 
 ! Rxvt.perl-ext-common:             ...,clipboard
 ! URxvt.keysym.M-C-c:               perl:clipboard:copy

@@ -90,3 +90,12 @@
 [app] (name=surf) (class=Surf) (role=Surf\[7\])
   [Dimensions]	{75% 75%}
 [end]
+[app] (name=fbpager) (class=FbPager)
+  [Position]	(BOTTOM)	{0% 0%}
+  [Deco]	{NONE}
+[end]
+[app] (name=st) (class=St)
+  [Dimensions]	{50% 50%}
+  [Deco]	{NONE}
+  [Maximized]	{no}
+[end]

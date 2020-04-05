@@ -1,20 +1,26 @@
 TO DO
 -----
-  -[ ] Update README.md
-    -[ ] Add screenshot images
   -[ ] urxvt auto copy to clipboard
+  -[ ] Fix volume keys
+  -[ ] Fluxbox Custom Buttons
   -[ ] Rofi add shutdown menu
   -[ ] vim default color scheme for conf files
+  -[ ] try out dunst
+  -[ ] try out yabar
+  -[ ] try out lemonbar
+  -[ ] try out https://github.com/vimwiki/vimwiki
+
 
 MAYBE LATER
 ----- -----
-  -[ ] try out lemonbar
-  -[ ] Fluxbox Custom Buttons
+  -[ ] 
 
 =====
 DONE
 ----
 
+  -[x] Update README.md
+    -[x] Add screenshot images 
   -[x] github
     -[x] check in dot files
     -[x] setup ssh
