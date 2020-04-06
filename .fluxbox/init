@@ -3,15 +3,35 @@ session.screen0.window.unfocus.alpha:	224
 session.screen0.tabs.usePixmap:	true
 session.screen0.tabs.maxOver:	false
 session.screen0.tabs.intitlebar:	true
-session.screen0.toolbar.button.0.label:	F
-session.screen0.toolbar.button.0.commands:	RootMenu:Exec foo
 session.screen0.toolbar.visible:	true
 session.screen0.toolbar.onhead:	0
 session.screen0.toolbar.widthPercent:	50
 session.screen0.toolbar.height:	24
 session.screen0.toolbar.maxOver:	false
 session.screen0.toolbar.placement:	TopLeft
-session.screen0.toolbar.tools:	RootMenu, WorkspaceName, button.0, Iconbar, Systemtray
+session.screen0.toolbar.button.fluxbox.label:	[Fluxbox]
+session.screen0.toolbar.button.fluxbox.commands:	RootMenu
+session.screen0.toolbar.button.clientmenu.label:	[Running Apps]
+session.screen0.toolbar.button.clientmenu.commands:	ClientMenu
+session.screen0.toolbar.button.workspacemenu.label:	[Workspaces]
+session.screen0.toolbar.button.workspacemenu.commands:	WorkspaceMenu
+#session.screen0.toolbar.button.workspace1.label:	[1]
+#session.screen0.toolbar.button.workspace1.commands:	Workspace 1
+#session.screen0.toolbar.button.workspace2.label:	[2]
+#session.screen0.toolbar.button.workspace2.commands:	Workspace 2
+#session.screen0.toolbar.button.workspace3.label:	[3]
+#session.screen0.toolbar.button.workspace3.commands:	Workspace 3
+#session.screen0.toolbar.button.workspace4.label:	[4]
+#session.screen0.toolbar.button.workspace4.commands:	Workspace 4
+session.screen0.toolbar.button.exit.label:	[Exit]
+session.screen0.toolbar.button.exit.commands:	CustomMenu ~/.fluxbox/exitmenu
+session.screen0.toolbar.button.minimize.label:	[ - ]
+session.screen0.toolbar.button.minimize.commands:	Minimize
+session.screen0.toolbar.button.maximize.label:	[ + ]
+session.screen0.toolbar.button.maximize.commands:	Maximize
+session.screen0.toolbar.button.close.label:	[ x ]
+session.screen0.toolbar.button.close.commands:	Close
+session.screen0.toolbar.tools:	RootMenu, button.fluxbox, WorkspaceName, button.clientmenu, Iconbar, button.minimize, button.maximize, button.close, Systemtray, button.exit
 session.screen0.toolbar.layer:	Dock
 session.screen0.toolbar.alpha:	250
 session.screen0.toolbar.autoHide:	false
@@ -42,7 +62,7 @@ session.screen0.menuDelay:	200
 session.screen0.maxDisableResize:	false
 session.screen0.rowPlacementDirection:	LeftToRight
 session.screen0.workspacewarping:	true
-session.screen0.workspaceNames:	Workspace [1]2 3 4 ,Workspace  1[2]3 4 ,Workspace  1 2[3]4 ,Workspace  1 2 3[4],
+session.screen0.workspaceNames:	 [1]2 3 4 ,  1[2]3 4 ,  1 2[3]4 ,  1 2 3[4],
 session.screen0.strftimeFormat:	%d %b, %a %02k:%M
 session.screen0.workspaces:	4
 session.screen0.colPlacementDirection:	TopToBottom

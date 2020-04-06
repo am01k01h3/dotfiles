@@ -8,11 +8,12 @@ Control Escape			:rootmenu
 Mod1 space			:WindowMenu
 
 #Super_L				:ToggleCmd {HideMenus} {Exec xdotool mousemove 10 41; fluxbox-remote RootMenu}
-F1				:ToggleCmd {HideMenus} {Exec xdotool mousemove 10 41; fluxbox-remote RootMenu}
+F1				:MacroCmd {HideMenus} {Exec xdotool mousemove 10 41; fluxbox-remote RootMenu}
 #Don't use F2 alone, since its commonly used in GUI file managers to rename files.
 #F2				:workspacemenu
-F3				:ToggleCmd {HideMenus} {clientmenu (class!=[Cc]onky) (name!=tty-clock) }
-F4				:ToggleCmd {HideMenus} {custommenu ~/.fluxbox/allappsmenu}
+#F3				:ToggleCmd {HideMenus} {clientmenu (class!=[Cc]onky) (name!=tty-clock) }
+F3				:MacroCmd {HideMenus} {clientmenu (class!=[Cc]onky) (name!=tty-clock) }
+F4				:MacroCmd {HideMenus} {custommenu ~/.fluxbox/allappsmenu}
 F10				:Exec xdotool mousemove 1900 41; fluxbox-remote 'CustomMenu ~/.fluxbox/exitmenu'
 Mod4 x				:Exec xdotool mousemove 1900 41; fluxbox-remote 'CustomMenu ~/.fluxbox/exitmenu'
 
@@ -35,7 +36,7 @@ Mod4 m                          :Maximize
 Mod4 f                          :Fullscreen
 Mod4 s                          :Shade
 Mod4 t                          :ToggleDecor
-Mod4 a                          :ArrangeWindowsHorizontal (Name!=tint2) (class!=[Cc]onky) (name!=tty-clock)
+Mod4 a                          :ArrangeWindowsVertical (Name!=tint2) (class!=[Cc]onky) (name!=tty-clock)
 #Mod4 a                          :ArrangeWindows (Name!=tint2) (class!=[Cc]onky)
 #Mod4 h                          :ArrangeWindowsHorizontal (Name!=tint2) (class!=[Cc]onky)
 #Mod4 v                          :ArrangeWindowsVertical (Name!=tint2) (class!=[Cc]onky)
@@ -81,7 +82,7 @@ Mod4 Tab			:prevGroup (Class!=[current]) (workspace=[current]) (name!=tty-clock)
 #Control Mod1 Shift Tab         :nextWindow {groups} (workspace=[all])
 
 # alt + left/right click to move/resize a window
-OnWindow Shift Mouse1           :MacroCmd {Raise} {Focus} {StartMoving}
+OnWindow Mod4 Mouse1           :MacroCmd {Raise} {Focus} {StartMoving}
 OnWindowBorder Move1            :StartMoving
 OnTitlebar Move1                :StartMoving
 

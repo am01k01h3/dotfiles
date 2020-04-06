@@ -1,7 +1,6 @@
 TO DO
 -----
   -[ ] Fix volume keys
-  -[ ] Fluxbox Custom Buttons
   -[ ] Rofi add shutdown menu
   -[ ] vim default color scheme for conf files
   -[ ] try out dunst
@@ -19,6 +18,7 @@ MAYBE LATER
 DONE
 ----
 
+  -[x] Fluxbox Custom Buttons
   -[x] urxvt auto copy to clipboard
   -[x] Update README.md
     -[x] Add screenshot images 
