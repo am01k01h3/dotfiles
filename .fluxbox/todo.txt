@@ -8,6 +8,7 @@ TO DO
   -[ ] try out yabar
   -[ ] try out lemonbar
   -[ ] try out https://github.com/vimwiki/vimwiki
+  -[ ] st scroll using mouse scroll buttons
 
 
 MAYBE LATER

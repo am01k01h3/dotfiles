@@ -11,14 +11,14 @@ Mod1 space			:WindowMenu
 F1				:ToggleCmd {HideMenus} {Exec xdotool mousemove 10 41; fluxbox-remote RootMenu}
 #Don't use F2 alone, since its commonly used in GUI file managers to rename files.
 #F2				:workspacemenu
-F3				:ToggleCmd {HideMenus} {clientmenu (class!=conky)}
+F3				:ToggleCmd {HideMenus} {clientmenu (class!=conky) (name!=tty-clock)}
 F4				:ToggleCmd {HideMenus} {custommenu ~/.fluxbox/allappsmenu}
 F10				:Exec xdotool mousemove 1900 41; fluxbox-remote 'CustomMenu ~/.fluxbox/exitmenu'
 Mod4 x				:Exec xdotool mousemove 1900 41; fluxbox-remote 'CustomMenu ~/.fluxbox/exitmenu'
 
 OnDesktop Mouse1		:HideMenus
 #OnDesktop Mouse1		:ToggleCmd {HideMenus} {CustomMenu ~/.fluxbox/exitmenu}
-OnDesktop Mouse2		:clientmenu (class!=conky)
+OnDesktop Mouse2		:clientmenu (class!=conky) (name!=tty-clock)
 OnDesktop Mouse3		:rootmenu
 #OnToolbar Mouse3		:rootmenu
 
@@ -35,11 +35,11 @@ Mod4 m                          :Maximize
 Mod4 f                          :Fullscreen
 Mod4 s                          :Shade
 Mod4 t                          :ToggleDecor
-Mod4 a                          :ArrangeWindowsHorizontal (Name!=tint2) (class!=conky)
+Mod4 a                          :ArrangeWindowsHorizontal (Name!=tint2) (class!=conky) (name!=tty-clock)
 #Mod4 a                          :ArrangeWindows (Name!=tint2) (class!=conky)
 #Mod4 h                          :ArrangeWindowsHorizontal (Name!=tint2) (class!=conky)
 #Mod4 v                          :ArrangeWindowsVertical (Name!=tint2) (class!=conky)
-Mod4 d                          :ShowDesktop (Name!=tint2) (class!=conky)
+Mod4 d                          :ShowDesktop (Name!=tint2) (class!=conky) (name!=tty-clock)
 
 Mod4 Insert			:MacroCmd {Raise} {Focus} {MoveTo 0 0 TopLeft} {ResizeTo 50% 50%}
 Mod4 Prior 			:MacroCmd {Raise} {Focus} {MoveTo 0 0 TopRight} {ResizeTo 50% 50%}
@@ -68,14 +68,14 @@ Mod1 Mod4 Shift Up                      :MacroCmd {Raise} {Focus} {ResizeVertica
 Mod1 Mod4 Shift Down                    :MacroCmd {Raise} {Focus} {ResizeVertical 1}
 
 # alt-tab
-Mod1 F2				:nextWindow
-Mod1 F3				:prevWindow
-Mod1 Tab                        :prevWindow {groups} (workspace=[current])
-Mod1 Shift Tab                  :nextWindow {groups} (workspace=[current])
-Mod1 grave                      :prevWindow {groups} (class=[current])
+Mod1 F2				:nextWindow (name!=tty-clock)
+Mod1 F3				:prevWindow (name!=tty-clock)
+Mod1 Tab                        :prevWindow {groups} (workspace=[current]) (name!=tty-clock)
+Mod1 Shift Tab                  :nextWindow {groups} (workspace=[current]) (name!=tty-clock)
+Mod1 grave                      :prevWindow {groups} (class=[current]) (name!=tty-clock)
 
 # Mac OS Style Apple/Command Tab Function
-Mod4 Tab			:prevGroup (Class!=[current]) (workspace=[current])
+Mod4 Tab			:prevGroup (Class!=[current]) (workspace=[current]) (name!=tty-clock)
 
 #Control Mod1 Tab               :prevWindow {groups} (workspace=[all])
 #Control Mod1 Shift Tab         :nextWindow {groups} (workspace=[all])
@@ -119,7 +119,10 @@ Control Mod1 n			:Exec leafpad
 121				:Exec amixer sset Master,0 toggle
 122				:Exec amixer sset Master,0 1-
 123				:Exec amixer sset Master,0 1+
-
+#
+# sh -c "pactl set-sink-mute 0 false ; pactl set-sink-volume 0 -5%"
+# sh -c "pactl set-sink-mute 0 false ; pactl set-sink-volume 0 +5%"
+#
 
 ############################################################
 #####			WORKSPACE			#####

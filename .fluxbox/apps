@@ -1,6 +1,12 @@
 [app] (name=tint2)
   [Layer]	{12}
 [end]
+[app] (name=Conky) (class=Conky)
+  [Dimensions]	{1024 26}
+  [Deco]	{NONE}
+  [Sticky]	{yes}
+  [Layer]	{8}
+[end]
 [app] (name=google-chrome) (class=Google-chrome)
   [Workspace]	{2}
   [Deco]	{NONE}
@@ -98,4 +104,10 @@
   [Dimensions]	{50% 50%}
   [Deco]	{NONE}
   [Maximized]	{no}
+[end]
+[app] (name=tty-clock) (class=St)
+  [Position]	(UPPERLEFT)	{85% 85%}
+  [Deco]	{NONE}
+  [Sticky]	{yes}
+  [Layer]	{6}
 [end]

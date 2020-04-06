@@ -24,7 +24,7 @@ compton -b --config ~/.config/compton.conf &
 [ -f ~/.Xmodmap ] && xmodmap ~/.Xmodmap &
 [ -f ~/.Xresources ] && xrdb ~/.Xresources
 
-# Xdefaults is now deprecated
+# Xdefaults is now deprecated in X11, and only .Xresources should be used
 #[ -f ~/.Xdefaults ] && xrdb ~/.Xdefaults
 
 ## Generate Menus on startup
@@ -69,8 +69,7 @@ xautolock -time 10 -locker blurlock &
 # Start Terminal
 #urxvt &
 st -e bash -l &
-st -e tty-clock -B -C 8 -t &
-
+st -T tty-clock -n tty-clock -g 36x10 -e tty-clock -B -C 8 -t &
 
 # Start Syncthing
 syncthing -no-browser &

@@ -12,6 +12,7 @@
     [exec] (Calculator) {gnome-calculator} </usr/share/icons/gnome/256x256/apps/gnome-calculator.png>
     [exec] (Character Map) {gucharmap} </usr/share/icons/oxygen/base/64x64/apps/accessories-character-map.png>
     [exec] (Characters) {gapplication} </usr/share/icons/Moka/256x256/apps/gnome-characters.png>
+    [exec] (ClipIt) {clipit} <>
     [exec] (compton) {compton} </usr/share/icons/hicolor/48x48/apps/compton.png>
     [exec] (Cryptomator) {/usr/bin/cryptomator} </usr/share/cryptomator/Cryptomator.png>
     [exec] (FeatherPad) {featherpad} <>
@@ -24,9 +25,7 @@
     [exec] (Maps) {gapplication} </usr/share/icons/Moka/256x256/web/org.gnome.Maps.png>
     [exec] (Neovim) {nvim} </usr/share/pixmaps/nvim.png>
     [exec] (OpenBazaar) {openbazaar2} </usr/share/pixmaps/openbazaar2.png>
-    [exec] (PCManFM File Manager) {pcmanfm-qt} </usr/share/icons/oxygen/base/64x64/apps/system-file-manager.png>
     [exec] (Plank) {plank} </usr/share/icons/Moka/256x256/apps/plank.png>
-    [exec] (Qlipper) {qlipper} </usr/share/icons/hicolor/128x128/apps/qlipper.png>
     [exec] (Report a problem...) {/usr/share/apport/apport-gtk} </usr/share/icons/Moka/256x256/apps/apport.png>
     [exec] (Rxvt Color Unicode Terminal) {urxvt} <>
     [exec] (Screenshot) {gnome-screenshot} </usr/share/icons/gnome/256x256/apps/applets-screenshooter.png>
@@ -74,7 +73,6 @@
     [exec] (Tor Browser) {torbrowser-launcher} </usr/share/pixmaps/torbrowser.png>
     [exec] (Transmission) {transmission-gtk} </usr/share/pixmaps/transmission.xpm>
     [exec] (Wireshark) {wireshark} </usr/share/icons/Moka/256x256/apps/wireshark.png>
-    [exec] (WMiFS) {wmifs} </usr/share/applications/wmifs.desktop>
     [exec] (X11VNC Server) {x11vnc} </home/amol/.fluxbox/icons/computer.png>
     [exec] (Zoom) {/usr/bin/zoom} <>
   [end]
@@ -100,6 +98,7 @@
     [exec] (Enqueue in SMPlayer) {smplayer} </usr/share/pixmaps/smplayer.xpm>
     [exec] (GNOME MPV) {gnome-mpv} </usr/share/icons/Moka/256x256/apps/gnome-mpv.png>
     [exec] (gtkpod) {gtkpod} </usr/share/icons/Moka/256x256/apps/gtkpod.png>
+    [exec] (Kazam) {kazam} </usr/share/icons/Moka/256x256/apps/kazam.png>
     [exec] (LXMusic simple music player) {lxmusic} </usr/share/pixmaps/lxmusic.png>
     [exec] (mpv Media Player) {mpv} </usr/share/icons/Moka/256x256/apps/gnome-mpv.png>
     [exec] (Musique) {musique} </usr/share/icons/Moka/256x256/apps/musique.png>
@@ -127,7 +126,7 @@
     [exec] (Color Picker) {gcm-picker} </usr/share/icons/Moka/256x256/apps/gnome-color-manager.png>
     [exec] (Color Profile Viewer) {gcm-viewer} </usr/share/icons/Moka/256x256/apps/gnome-color-manager.png>
     [exec] (Disk Usage Analyzer) {baobab} </usr/share/icons/Moka/256x256/apps/baobab.png>
-    [exec] (Enlightenment File Manager) {enlightenment_filemanager} </usr/share/icons/oxygen/base/64x64/apps/system-file-manager.png>
+    [exec] (File Manager PCManFM) {pcmanfm} </usr/share/icons/oxygen/base/64x64/apps/system-file-manager.png>
     [exec] (GNOME System Monitor) {gnome-system-monitor} </usr/share/icons/oxygen/base/64x64/apps/utilities-system-monitor.png>
     [exec] (Hibernate) {lxqt-leave} </usr/share/icons/oxygen/base/64x64/actions/system-suspend-hibernate.png>
     [exec] (Htop) {htop} </usr/share/pixmaps/htop.png>
@@ -153,7 +152,6 @@
     [exec] (Tint2) {tint2} <>
     [exec] (UXTerm) {uxterm} </usr/share/icons/Moka/256x256/apps/xterm-color.png>
     [exec] (Vifm) {vifm} </usr/share/pixmaps/vifm.png>
-    [exec] (wmdrawer) {wmdrawer} </usr/share/applications/wmdrawer.desktop>
     [exec] (XTerm) {xterm} </usr/share/icons/Moka/256x256/apps/xterm-color.png>
   [end]
   [submenu] (Preferences) {} <>
@@ -173,7 +171,7 @@
     [exec] (Date & Time) {gnome-control-center} </usr/share/icons/oxygen/base/64x64/apps/preferences-system-time.png>
     [exec] (Default Applications) {gnome-control-center} </usr/share/icons/gnome/256x256/status/semi-starred.png>
     [exec] (Desktop Notifications) {lxqt-config-notificationd} </usr/share/icons/oxygen/base/64x64/apps/preferences-desktop-theme.png>
-    [exec] (Desktop) {pcmanfm-qt} </usr/share/icons/oxygen/base/256x256/places/user-desktop.png>
+    [exec] (Desktop Preferences) {pcmanfm} </usr/share/icons/oxygen/base/256x256/places/user-desktop.png>
     [exec] (Disks) {gnome-disks} </usr/share/icons/Moka/256x256/apps/gnome-disks.png>
     [exec] (Displays) {gnome-control-center} </usr/share/icons/oxygen/base/64x64/apps/preferences-desktop-display.png>
     [exec] (Dock) {gnome-control-center} </usr/share/icons/hicolor/22x22/apps/preferences-ubuntu-panel.png>
@@ -200,6 +198,7 @@
     [exec] (Printers) {gnome-control-center} </usr/share/icons/oxygen/base/64x64/apps/preferences-desktop-printer.png>
     [exec] (Printers) {system-config-printer} </usr/share/icons/oxygen/base/64x64/apps/preferences-desktop-printer.png>
     [exec] (Privacy) {gnome-control-center} </usr/share/icons/gnome/256x256/apps/preferences-system-privacy.png>
+    [exec] (Qt 4 Settings) {/usr/bin/qtconfig-qt4} </usr/share/pixmaps/qtconfig-qt4.png>
     [exec] (Region & Language) {gnome-control-center} </usr/share/icons/oxygen/base/256x256/apps/preferences-desktop-locale.png>
     [exec] (Removable Media) {gnome-control-center} </usr/share/icons/gnome/256x256/devices/media-removable.png>
     [exec] (Screensaver) {xscreensaver-demo} </usr/share/pixmaps/xscreensaver.xpm>
