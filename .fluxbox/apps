@@ -5,7 +5,7 @@
   [Dimensions]	{1024 26}
   [Deco]	{NONE}
   [Sticky]	{yes}
-  [Layer]	{8}
+  [Layer]	{12}
 [end]
 [app] (name=google-chrome) (class=Google-chrome)
   [Workspace]	{2}

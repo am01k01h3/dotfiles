@@ -26,7 +26,7 @@ use_xft yes
 #xftfont gentium:size=12
 #ftfont DejaVu Sans:size=10
 #xftfont DejaVu Sans:bold:size=9
-xftfont DejaVu Sans:size=9
+xftfont DejaVu Sans:size=10
 #xftfont verdana:size=9
 
 # Create own window instead of using desktop (required in nautilus, pcmanfm and rox desktops)
@@ -37,7 +37,7 @@ own_window_argb_value 250
 own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
 
 # if own_window is yes, you may specify type normal, desktop, dock, panel or override (default: normal
-own_window_type normal
+#own_window_type dock
 own_window_title conkybar
 own_window_class Conky
 
@@ -70,11 +70,11 @@ update_interval_on_battery 10
 double_buffer yes
 
 # Minimum size of text area
-minimum_size 24 24
-minimum_height 32
+minimum_size 26 26
+minimum_height 26
 #maximum_height 32
 minimum_width 1024
-maximum_width 1920
+maximum_width 1024
 
 default_graph_width 20
 default_graph_height 14

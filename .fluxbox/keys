@@ -11,14 +11,14 @@ Mod1 space			:WindowMenu
 F1				:ToggleCmd {HideMenus} {Exec xdotool mousemove 10 41; fluxbox-remote RootMenu}
 #Don't use F2 alone, since its commonly used in GUI file managers to rename files.
 #F2				:workspacemenu
-F3				:ToggleCmd {HideMenus} {clientmenu (class!=conky) (name!=tty-clock)}
+F3				:ToggleCmd {HideMenus} {clientmenu (class!=[Cc]onky) (name!=tty-clock) }
 F4				:ToggleCmd {HideMenus} {custommenu ~/.fluxbox/allappsmenu}
 F10				:Exec xdotool mousemove 1900 41; fluxbox-remote 'CustomMenu ~/.fluxbox/exitmenu'
 Mod4 x				:Exec xdotool mousemove 1900 41; fluxbox-remote 'CustomMenu ~/.fluxbox/exitmenu'
 
 OnDesktop Mouse1		:HideMenus
 #OnDesktop Mouse1		:ToggleCmd {HideMenus} {CustomMenu ~/.fluxbox/exitmenu}
-OnDesktop Mouse2		:clientmenu (class!=conky) (name!=tty-clock)
+OnDesktop Mouse2		:clientmenu (class!=[Cc]onky) (name!=tty-clock)
 OnDesktop Mouse3		:rootmenu
 #OnToolbar Mouse3		:rootmenu
 
@@ -35,11 +35,11 @@ Mod4 m                          :Maximize
 Mod4 f                          :Fullscreen
 Mod4 s                          :Shade
 Mod4 t                          :ToggleDecor
-Mod4 a                          :ArrangeWindowsHorizontal (Name!=tint2) (class!=conky) (name!=tty-clock)
-#Mod4 a                          :ArrangeWindows (Name!=tint2) (class!=conky)
-#Mod4 h                          :ArrangeWindowsHorizontal (Name!=tint2) (class!=conky)
-#Mod4 v                          :ArrangeWindowsVertical (Name!=tint2) (class!=conky)
-Mod4 d                          :ShowDesktop (Name!=tint2) (class!=conky) (name!=tty-clock)
+Mod4 a                          :ArrangeWindowsHorizontal (Name!=tint2) (class!=[Cc]onky) (name!=tty-clock)
+#Mod4 a                          :ArrangeWindows (Name!=tint2) (class!=[Cc]onky)
+#Mod4 h                          :ArrangeWindowsHorizontal (Name!=tint2) (class!=[Cc]onky)
+#Mod4 v                          :ArrangeWindowsVertical (Name!=tint2) (class!=[Cc]onky)
+Mod4 d                          :ShowDesktop (Name!=tint2) (class!=[Cc]onky) (name!=tty-clock)
 
 Mod4 Insert			:MacroCmd {Raise} {Focus} {MoveTo 0 0 TopLeft} {ResizeTo 50% 50%}
 Mod4 Prior 			:MacroCmd {Raise} {Focus} {MoveTo 0 0 TopRight} {ResizeTo 50% 50%}
