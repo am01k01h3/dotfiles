@@ -34,18 +34,18 @@
   [Dimensions]	{49% 49%}
 [end]
 [app] (name=vlc) (class=Vlc) (role=vlc-main)
-  [Position]	(UPPERLEFT)	{0 0}
+  [Position]	(UPPERLEFT)	{10 10}
   [Deco]	{NONE}
 [end]
 [app] (name=gcalctool) (class=Gcalctool) (role=gcalctool)
-  [Position]	(RIGHT)	{0 0}
+  [Position]	(RIGHT)	{10 10}
 [end]
 [transient] (name=shotwell) (class=Shotwell)
-  [Position]	(UPPERLEFT)	{0 0}
+  [Position]	(UPPERLEFT)	{10 10}
 [end]
 [app] (name=Navigator) (class=Firefox) (role=browser)
+  [Position]	(UPPERLEFT)	{10 10}
   [Deco]	{NONE}
-  [Maximized]	{yes}
 [end]
 [app] (name=luakit) (class=luakit)
   [Deco]	{NONE}
@@ -68,9 +68,8 @@
   [Layer]	{12}
 [end]
 [app] (name=netsurf-gtk3) (class=Netsurf-gtk3)
+  [Dimensions]	{49% 49%}
   [Deco]	{NONE}
-  [Maximized]	{yes}
-  [Fullscreen]	{no}
 [end]
 [app] (name=Navigator) (class=firefox) (role=browser)
   [Deco]	{NONE}
@@ -110,4 +109,8 @@
   [Deco]	{NONE}
   [Sticky]	{yes}
   [Layer]	{6}
+[end]
+[app] (name=pcmanfm) (class=Pcmanfm)
+  [Dimensions]	{49% 49%}
+  [Deco]	{NORMAL}
 [end]

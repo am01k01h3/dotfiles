@@ -68,8 +68,8 @@ xautolock -time 10 -locker blurlock &
 
 # Start Terminal
 #urxvt &
-st -e bash -l &
-st -T tty-clock -n tty-clock -g 36x10 -e tty-clock -B -C 8 -t &
+sleep 1 && st -e bash -l &
+sleep 1 && st -T tty-clock -n tty-clock -g 36x10 -e tty-clock -B -C 8 -t &
 
 # Start Syncthing
 syncthing -no-browser &

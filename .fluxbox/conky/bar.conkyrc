@@ -13,7 +13,7 @@ out_to_console no
 #font 7x12
 #font 6x10
 #font 7x13
-#font 8x12
+font 8x12
 #font 7x12
 #font *mintsmild.se*
 #font -*-*-*-*-*-*-34-*-*-*-*-*-*-*
@@ -23,11 +23,11 @@ out_to_console no
 use_xft yes
 
 # Xft font when Xft is enabled
-#xftfont gentium:size=12
+#xftfont gentium:size=10
 #ftfont DejaVu Sans:size=10
 #xftfont DejaVu Sans:bold:size=9
 xftfont DejaVu Sans:size=10
-#xftfont verdana:size=9
+#xftfont verdana:size=10
 
 # Create own window instead of using desktop (required in nautilus, pcmanfm and rox desktops)
 own_window yes
@@ -70,8 +70,8 @@ update_interval_on_battery 10
 double_buffer yes
 
 # Minimum size of text area
-minimum_size 26 26
-minimum_height 26
+minimum_size 24 24
+minimum_height 24
 #maximum_height 32
 minimum_width 1024
 maximum_width 1024
@@ -86,13 +86,13 @@ draw_shades no
 draw_outline no
 
 # Draw borders around text
-draw_borders no
+draw_borders yes
 
 # Stippled borders?
 stippled_borders 0
 
 # border margins
-border_margin 0
+#border_margin 0
 
 # border width
 border_width 0

@@ -21,7 +21,6 @@
     [exec] (GVim) {gvim} </usr/share/icons/Moka/256x256/apps/gvim.png>
     [exec] (Help) {yelp} </usr/share/icons/oxygen/base/64x64/apps/help-browser.png>
     [exec] (KeePassXC) {keepassxc} </usr/share/icons/hicolor/256x256/apps/keepassxc.png>
-    [exec] (Leafpad) {leafpad} </home/amol/.fluxbox/icons/leafpad.png>
     [exec] (Maps) {gapplication} </usr/share/icons/Moka/256x256/web/org.gnome.Maps.png>
     [exec] (Neovim) {nvim} </usr/share/pixmaps/nvim.png>
     [exec] (OpenBazaar) {openbazaar2} </usr/share/pixmaps/openbazaar2.png>
@@ -30,7 +29,6 @@
     [exec] (Rxvt Color Unicode Terminal) {urxvt} <>
     [exec] (Screenshot) {gnome-screenshot} </usr/share/icons/gnome/256x256/apps/applets-screenshooter.png>
     [exec] (Shutter) {shutter} </usr/share/pixmaps/shutter.png>
-    [exec] (SpaceFM File Search) {spacefm} </usr/share/icons/Faenza/apps/48/spacefm-find.png>
     [exec] (Text Editor) {gedit} </usr/share/icons/Moka/256x256/apps/gedit.png>
     [exec] (VeraCrypt) {/usr/bin/veracrypt} </usr/share/pixmaps/veracrypt.xpm>
     [exec] (Vim) {vim} </usr/share/icons/Moka/256x256/apps/gvim.png>
@@ -53,9 +51,7 @@
     [exec] (Feh) {feh} <>
     [exec] (GNU Image Manipulation Program) {gimp-2.8} </usr/share/icons/Moka/256x256/apps/gimp.png>
     [exec] (gThumb) {gthumb} </usr/share/icons/hicolor/256x256/apps/org.gnome.gThumb.png>
-    [exec] (LXImage) {lximage-qt} </usr/share/icons/Moka/256x256/apps/lximage-qt.png>
     [exec] (qimgv) {qimgv} </usr/share/icons/hicolor/256x256/apps/qimgv.png>
-    [exec] (Screenshot) {lximage-qt} </usr/share/icons/oxygen/base/256x256/devices/camera-photo.png>
     [exec] (Simple Scan) {simple-scan} </usr/share/icons/oxygen/base/64x64/devices/scanner.png>
   [end]
   [submenu] (Internet) {} <>
@@ -72,7 +68,6 @@
     [exec] (Tor Browser Launcher Settings) {torbrowser-launcher} </usr/share/pixmaps/torbrowser.png>
     [exec] (Tor Browser) {torbrowser-launcher} </usr/share/pixmaps/torbrowser.png>
     [exec] (Transmission) {transmission-gtk} </usr/share/pixmaps/transmission.xpm>
-    [exec] (Wireshark) {wireshark} </usr/share/icons/Moka/256x256/apps/wireshark.png>
     [exec] (X11VNC Server) {x11vnc} </home/amol/.fluxbox/icons/computer.png>
     [exec] (Zoom) {/usr/bin/zoom} <>
   [end]
@@ -101,7 +96,6 @@
     [exec] (Kazam) {kazam} </usr/share/icons/Moka/256x256/apps/kazam.png>
     [exec] (LXMusic simple music player) {lxmusic} </usr/share/pixmaps/lxmusic.png>
     [exec] (mpv Media Player) {mpv} </usr/share/icons/Moka/256x256/apps/gnome-mpv.png>
-    [exec] (Musique) {musique} </usr/share/icons/Moka/256x256/apps/musique.png>
     [exec] (PulseAudio System Tray) {pasystray} </usr/share/pixmaps/pasystray.png>
     [exec] (PulseAudio Volume Control) {pavucontrol} </usr/share/icons/oxygen/base/256x256/apps/multimedia-volume-control.png>
     [exec] (Rhythmbox) {rhythmbox-client} </usr/share/icons/Moka/256x256/apps/rhythmbox.png>
@@ -116,7 +110,6 @@
   [end]
 [separator]
   [submenu] (System Tools) {} <>
-    [exec] (About LXQt) {lxqt-about} </usr/share/icons/oxygen/base/22x22/actions/help-about.png>
     [exec] (AptURL) {apturl} </usr/share/applications/apturl.desktop>
     [exec] (Banner Designer) {gnome-software-editor} </usr/share/icons/Moka/256x256/apps/org.gnome.Software.png>
     [exec] (Budgie Background Services) {budgie-daemon} </usr/share/applications/budgie-daemon.desktop>
@@ -128,25 +121,15 @@
     [exec] (Disk Usage Analyzer) {baobab} </usr/share/icons/Moka/256x256/apps/baobab.png>
     [exec] (File Manager PCManFM) {pcmanfm} </usr/share/icons/oxygen/base/64x64/apps/system-file-manager.png>
     [exec] (GNOME System Monitor) {gnome-system-monitor} </usr/share/icons/oxygen/base/64x64/apps/utilities-system-monitor.png>
-    [exec] (Hibernate) {lxqt-leave} </usr/share/icons/oxygen/base/64x64/actions/system-suspend-hibernate.png>
     [exec] (Htop) {htop} </usr/share/pixmaps/htop.png>
     [exec] (ICC Profile Installer) {/usr/bin/gcm-import} </usr/share/icons/oxygen/base/256x256/mimetypes/application-vnd.iccprofile.png>
     [exec] (Keyboard Layout) {gkbd-keyboard-display} </usr/share/icons/oxygen/base/64x64/apps/preferences-desktop-keyboard.png>
-    [exec] (Leave) {lxqt-leave} </usr/share/icons/oxygen/base/64x64/actions/system-shutdown.png>
-    [exec] (Lock Screen) {lxqt-leave} </usr/share/icons/oxygen/base/64x64/actions/system-lock-screen.png>
-    [exec] (Logout) {lxqt-leave} </usr/share/icons/oxygen/base/64x64/actions/system-log-out.png>
     [exec] (Logs) {gnome-logs} </usr/share/icons/Moka/256x256/apps/gnome-logs.png>
     [exec] (Power Statistics) {gnome-power-statistics} </usr/share/icons/hicolor/22x22/apps/org.gnome.PowerStats.png>
     [exec] (qps) {qps} </usr/share/icons/hicolor/48x48/apps/qps.png>
-    [exec] (QTerminal drop down) {qterminal} </home/amol/.fluxbox/icons/utilities-terminal.png>
-    [exec] (QTerminal) {qterminal} </home/amol/.fluxbox/icons/utilities-terminal.png>
     [exec] (Reactivate HP LaserJet 1018/1020 after reloading paper) {/usr/share/foo2zjs/hplj10xx_gui.tcl} </usr/share/pixmaps/hplj1020_icon.png>
-    [exec] (Reboot) {lxqt-leave} </usr/share/icons/oxygen/base/64x64/actions/system-reboot.png>
-    [exec] (Shutdown) {lxqt-leave} </usr/share/icons/oxygen/base/64x64/actions/system-shutdown.png>
     [exec] (Software) {gnome-software} </usr/share/icons/Moka/256x256/apps/org.gnome.Software.png>
     [exec] (Software Install) {gnome-software} </usr/share/icons/gnome/256x256/apps/system-software-install.png>
-    [exec] (SpaceFM) {env} </usr/share/icons/Faenza/apps/48/spacefm.png>
-    [exec] (Suspend) {lxqt-leave} </usr/share/icons/oxygen/base/64x64/actions/system-suspend.png>
     [exec] (System Monitor) {gnome-system-monitor} </usr/share/icons/oxygen/base/64x64/apps/utilities-system-monitor.png>
     [exec] (Tilix) {tilix} </usr/share/icons/Moka/256x256/apps/com.gexperts.Tilix.png>
     [exec] (Tint2) {tint2} <>
@@ -157,35 +140,25 @@
   [submenu] (Preferences) {} <>
     [exec] (About) {gnome-control-center} </usr/share/icons/oxygen/base/22x22/actions/help-about.png>
     [exec] (Additional Drivers) {/usr/bin/software-properties-gtk} </usr/share/icons/Moka/256x256/apps/jockey.png>
-    [exec] (Alternatives Configurator) {/usr/sbin/galternatives} </usr/share/icons/hicolor/48x48/apps/galternatives.png>
-    [exec] (Appearance) {lxqt-config-appearance} </usr/share/icons/oxygen/base/64x64/apps/preferences-desktop-theme.png>
     [exec] (Background) {gnome-control-center} </usr/share/icons/oxygen/base/64x64/apps/preferences-desktop-wallpaper.png>
     [exec] (Bluetooth Adapters) {blueman-adapters} </usr/share/icons/hicolor/16x16/devices/blueman-device.png>
     [exec] (Bluetooth) {gnome-control-center} </usr/share/icons/oxygen/base/256x256/apps/preferences-system-bluetooth.png>
     [exec] (Bluetooth Manager) {blueman-manager} </usr/share/icons/Moka/256x256/apps/blueman.png>
-    [exec] (Brightness) {lxqt-config-brightness} <>
     [exec] (Color) {gcm-calibrate} </usr/share/icons/Moka/256x256/apps/gnome-color-manager.png>
     [exec] (Color) {gnome-control-center} </usr/share/icons/Moka/256x256/apps/cinnamon-preferences-color.png>
     [exec] (Customize Look and Feel) {lxappearance} </usr/share/icons/oxygen/base/64x64/apps/preferences-desktop-theme.png>
-    [exec] (Date and Time) {lxqt-admin-time} </usr/share/icons/oxygen/base/256x256/categories/preferences-system.png>
     [exec] (Date & Time) {gnome-control-center} </usr/share/icons/oxygen/base/64x64/apps/preferences-system-time.png>
     [exec] (Default Applications) {gnome-control-center} </usr/share/icons/gnome/256x256/status/semi-starred.png>
-    [exec] (Desktop Notifications) {lxqt-config-notificationd} </usr/share/icons/oxygen/base/64x64/apps/preferences-desktop-theme.png>
     [exec] (Desktop Preferences) {pcmanfm} </usr/share/icons/oxygen/base/256x256/places/user-desktop.png>
     [exec] (Disks) {gnome-disks} </usr/share/icons/Moka/256x256/apps/gnome-disks.png>
     [exec] (Displays) {gnome-control-center} </usr/share/icons/oxygen/base/64x64/apps/preferences-desktop-display.png>
     [exec] (Dock) {gnome-control-center} </usr/share/icons/hicolor/22x22/apps/preferences-ubuntu-panel.png>
-    [exec] (File Associations) {lxqt-config-file-associations} </usr/share/icons/oxygen/base/22x22/apps/preferences-desktop-filetype-association.png>
     [exec] (IBus Preferences) {ibus-setup} </usr/share/icons/Moka/256x256/apps/ibus-setup.png>
-    [exec] (Keyboard and Mouse) {lxqt-config-input} </usr/share/icons/oxygen/base/256x256/devices/input-keyboard.png>
     [exec] (Keyboard) {gnome-control-center} </usr/share/icons/oxygen/base/256x256/devices/input-keyboard.png>
     [exec] (Language Support) {/usr/bin/gnome-language-selector} </usr/share/icons/oxygen/base/256x256/apps/preferences-desktop-locale.png>
     [exec] (Livepatch) {/usr/bin/software-properties-gtk} <>
-    [exec] (Locale) {lxqt-config-locale} </usr/share/icons/oxygen/base/256x256/apps/preferences-desktop-locale.png>
     [exec] (Login Window) {lightdm-settings} </usr/share/icons/hicolor/22x22/apps/lightdm-settings.png>
-    [exec] (LXQt Configuration Center) {lxqt-config} </usr/share/icons/oxygen/base/256x256/categories/preferences-system.png>
     [exec] (Menu Editor) {/usr/bin/menulibre} </usr/share/pixmaps/menulibre.png>
-    [exec] (Monitor settings) {lxqt-config-monitor} </usr/share/icons/oxygen/base/64x64/apps/preferences-desktop-display.png>
     [exec] (Mouse & Touchpad) {gnome-control-center} </usr/share/icons/oxygen/base/256x256/devices/input-mouse.png>
     [exec] (Network Connections) {nm-connection-editor} </usr/share/icons/oxygen/base/256x256/categories/preferences-system-network.png>
     [exec] (Network) {gnome-control-center} </usr/share/icons/oxygen/base/256x256/places/network-workgroup.png>
@@ -194,7 +167,6 @@
     [exec] (Online Accounts) {gnome-control-center} </usr/share/icons/Moka/256x256/apps/goa-panel.png>
     [exec] (Plank Preferences) {plank} </usr/share/icons/Moka/256x256/apps/plank.png>
     [exec] (Power) {gnome-control-center} </usr/share/icons/Moka/256x256/apps/gnome-power-manager.png>
-    [exec] (Power Management) {lxqt-config-powermanagement} </usr/share/icons/oxygen/base/64x64/apps/preferences-system-power-management.png>
     [exec] (Printers) {gnome-control-center} </usr/share/icons/oxygen/base/64x64/apps/preferences-desktop-printer.png>
     [exec] (Printers) {system-config-printer} </usr/share/icons/oxygen/base/64x64/apps/preferences-desktop-printer.png>
     [exec] (Privacy) {gnome-control-center} </usr/share/icons/gnome/256x256/apps/preferences-system-privacy.png>
@@ -203,10 +175,8 @@
     [exec] (Removable Media) {gnome-control-center} </usr/share/icons/gnome/256x256/devices/media-removable.png>
     [exec] (Screensaver) {xscreensaver-demo} </usr/share/pixmaps/xscreensaver.xpm>
     [exec] (Search) {gnome-control-center} </usr/share/icons/gnome/256x256/apps/preferences-system-search.png>
-    [exec] (Session Settings) {lxqt-config-session} </usr/share/icons/oxygen/base/22x22/apps/preferences-system-session-services.png>
     [exec] (Settings) {gnome-control-center} </home/amol/.fluxbox/icons/gnome-control-center.png>
     [exec] (Sharing) {gnome-control-center} </usr/share/icons/gnome/256x256/apps/preferences-system-sharing.png>
-    [exec] (Shortcut Keys) {lxqt-config-globalkeyshortcuts} </usr/share/icons/oxygen/base/64x64/apps/preferences-desktop-keyboard.png>
     [exec] (Software Updater) {/usr/bin/update-manager} </usr/share/icons/oxygen/base/64x64/apps/system-software-update.png>
     [exec] (Software & Updates) {software-properties-gtk} </usr/share/icons/Moka/256x256/apps/software-properties.png>
     [exec] (Sound) {gnome-control-center} </usr/share/icons/oxygen/base/256x256/apps/multimedia-volume-control.png>
@@ -214,7 +184,6 @@
     [exec] (Thunderbolt) {gnome-control-center} <>
     [exec] (Tint2 Settings) {tint2conf} </usr/share/icons/Moka/256x256/apps/tint2conf.png>
     [exec] (Universal Access) {gnome-control-center} </usr/share/icons/oxygen/base/64x64/apps/preferences-desktop-accessibility.png>
-    [exec] (Users and Groups) {lxqt-admin-user} </usr/share/icons/oxygen/base/256x256/categories/preferences-system.png>
     [exec] (Users) {gnome-control-center} </usr/share/icons/oxygen/base/64x64/apps/system-users.png>
     [exec] (Wacom Tablet) {gnome-control-center} </usr/share/icons/oxygen/base/64x64/devices/input-tablet.png>
     [exec] (Wi-Fi) {gnome-control-center} </usr/share/icons/oxygen/base/256x256/devices/network-wireless.png>

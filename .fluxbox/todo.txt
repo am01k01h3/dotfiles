@@ -1,5 +1,8 @@
 TO DO
 -----
+  -[ ] Optimize generate fluxbox menu
+  -[ ] setup polybar
+  -[ ] Add audacious skins to git
   -[ ] Fix volume keys
   -[ ] Rofi add shutdown menu
   -[ ] vim default color scheme for conf files
@@ -8,6 +11,7 @@ TO DO
   -[ ] try out lemonbar
   -[ ] try out https://github.com/vimwiki/vimwiki
   -[ ] st scroll using mouse scroll buttons
+  -[ ] play with wmctrl
 
 
 MAYBE LATER
