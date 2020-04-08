@@ -1,6 +1,7 @@
 ############################################################
 
 control Mod1 Delete		:Exit
+control Mod4 r          :Restart
 
 ##### MENUS #####
 Mod4 space			:Exec xdotool mousemove 10 41; fluxbox-remote RootMenu

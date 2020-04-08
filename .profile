@@ -50,7 +50,8 @@ fi
 #
 #echo -ne "\033]0;"$ "\007"
 set -o vi
-cd ~/.fluxbox
+#cd ~/.fluxbox
+cd ~/.config/qtile
 date
 neofetch
 pwd

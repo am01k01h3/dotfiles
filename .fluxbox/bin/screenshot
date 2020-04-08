@@ -1,7 +1,0 @@
-outputdir=~/Pictures
-outputfilename=screenshot_`date +%Y%m%d_%H%M%S`.jpg
-outputfile=$outputdir/$outputfile
-
-mkdir $outputdir
-import -pause 2 -window root $outputfile
-

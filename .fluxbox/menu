@@ -127,6 +127,7 @@
     [exec] (Logs) {gnome-logs} </usr/share/icons/Moka/256x256/apps/gnome-logs.png>
     [exec] (Power Statistics) {gnome-power-statistics} </usr/share/icons/hicolor/22x22/apps/org.gnome.PowerStats.png>
     [exec] (qps) {qps} </usr/share/icons/hicolor/48x48/apps/qps.png>
+    [exec] (ranger) {ranger} </home/amol/.fluxbox/icons/utilities-terminal.png>
     [exec] (Reactivate HP LaserJet 1018/1020 after reloading paper) {/usr/share/foo2zjs/hplj10xx_gui.tcl} </usr/share/pixmaps/hplj1020_icon.png>
     [exec] (Software) {gnome-software} </usr/share/icons/Moka/256x256/apps/org.gnome.Software.png>
     [exec] (Software Install) {gnome-software} </usr/share/icons/gnome/256x256/apps/system-software-install.png>
