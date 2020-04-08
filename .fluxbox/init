@@ -31,7 +31,7 @@ session.screen0.toolbar.button.maximize.label:	[ + ]
 session.screen0.toolbar.button.maximize.commands:	Maximize
 session.screen0.toolbar.button.close.label:	[ x ]
 session.screen0.toolbar.button.close.commands:	Close
-session.screen0.toolbar.tools:	RootMenu, button.fluxbox, WorkspaceName, button.clientmenu, Iconbar, button.minimize, button.maximize, button.close, Systemtray, button.exit
+session.screen0.toolbar.tools:	RootMenu, WorkspaceName, Iconbar, Systemtray
 session.screen0.toolbar.layer:	Dock
 session.screen0.toolbar.alpha:	250
 session.screen0.toolbar.autoHide:	false

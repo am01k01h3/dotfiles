@@ -100,7 +100,7 @@ OnTitlebar Mouse1               :MacroCmd {Raise} {Focus} {ActivateTab}
 
 ############################################################
 #####			Shortcuts			##### 
-Mod4 r				:Exec rofi -show drun -modi drun,run,window -show-icons -sidebar-mode -fake-transparency -terminal urxvt -theme ~/.fluxbox/rofi/Siera-alt.rasi
+Mod4 r				:Exec rofi -show drun -modi drun,run,window -show-icons -sidebar-mode -fake-transparency -terminal st -theme ~/.fluxbox/rofi/Siera-alt.rasi
 Mod1 Return				:Exec ~/.fluxbox/bin/dmenu-bind.sh
 #Control r				:Exec fbrun -w 300 -fg white -bg black -fh ~/.fluxbox/fbrun_history
 

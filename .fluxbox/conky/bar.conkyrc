@@ -57,7 +57,7 @@ alignment top_right
 #gap_x 1
 #gap_y -18
 gap_x 6
-gap_y 5
+gap_y 3
 
 # mail spool
 #mail_spool $MAIL
