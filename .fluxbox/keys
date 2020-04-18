@@ -111,16 +111,17 @@ Print				:Exec ~/.fluxbox/bin/screenshot
 
 Mod4 e				:Exec pcmanfm ~
 #Mod4 e				:Exec rox-filer -n
-Control Mod1 t			:Exec st -e bash -l
+Control Mod1 t			:Exec urxvt
 #Mod4 Return			:Exec urxvt
-Mod4 Return			:Exec st -e bash -l
-Control Mod1 i			:Exec firefox
+Mod4 Return			:Exec alacritty -e bash -l
+Mod1 Return			:Exec st -e bash -l
+Control Mod1 i			:Exec qutebrowser
 #Control Mod1 i			:Exec surf start.duckduckgo.com
 Control Mod1 n			:Exec gedit
 
-121				:Exec amixer sset Master,0 toggle
-122				:Exec amixer sset Master,0 1-
-123				:Exec amixer sset Master,0 1+
+#121				:Exec amixer sset Master,0 toggle
+#122				:Exec amixer sset Master,0 1-
+#123				:Exec amixer sset Master,0 1+
 #
 # sh -c "pactl set-sink-mute 0 false ; pactl set-sink-volume 0 -5%"
 # sh -c "pactl set-sink-mute 0 false ; pactl set-sink-volume 0 +5%"
@@ -148,24 +149,24 @@ OnTitlebar Mouse2		:StartTabbing
 ############################################################
 
 # change to a specific workspace
-#Mod4 1				:Workspace 1
-#Mod4 2				:Workspace 2
-#Mod4 3				:Workspace 3
-#Mod4 4				:Workspace 4
-#Mod4 5				:Workspace 5
-#Mod4 6				:Workspace 6
-#Mod4 7				:Workspace 7
-#Mod4 8				:Workspace 8
+Mod4 1				:Workspace 1
+Mod4 2				:Workspace 2
+Mod4 3				:Workspace 3
+Mod4 4				:Workspace 4
+Mod4 5				:Workspace 5
+Mod4 6				:Workspace 6
+Mod4 7				:Workspace 7
+Mod4 8				:Workspace 8
 
 # send the current window and change to a specific workspace
-#Mod4 Mod1 1			:TakeToWorkspace 1
-#Mod4 Mod1 2			:TakeToWorkspace 2
-#Mod4 Mod1 3			:TakeToWorkspace 3
-#Mod4 Mod1 4			:TakeToWorkspace 4
-#Mod4 Mod1 5			:TakeToWorkspace 5
-#Mod4 Mod1 6			:TakeToWorkspace 6
-#Mod4 Mod1 7			:TakeToWorkspace 7
-#Mod4 Mod1 8			:TakeToWorkspace 8
+Mod4 Shift 1			:TakeToWorkspace 1
+Mod4 Shift 2			:TakeToWorkspace 2
+Mod4 Shift 3			:TakeToWorkspace 3
+Mod4 Shift 4			:TakeToWorkspace 4
+Mod4 Shift 5			:TakeToWorkspace 5
+Mod4 Shift 6			:TakeToWorkspace 6
+Mod4 Shift 7			:TakeToWorkspace 7
+Mod4 Shift 8			:TakeToWorkspace 8
 
 # go to a specific tab in the current window
 #Mod4 1				:Tab 1

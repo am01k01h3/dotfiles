@@ -61,12 +61,11 @@
     [exec] (Luakit) {luakit} </usr/share/pixmaps/luakit.png>
     [exec] (QMPDClient) {qmpdclient} </usr/share/icons/hicolor/64x64/apps/qmpdclient.png>
     [exec] (Quassel IRC) {quassel} </usr/share/pixmaps/quassel.png>
+    [exec] (qutebrowser) {qutebrowser} </usr/share/pixmaps/qutebrowser.xpm>
     [exec] (Slack) {/usr/bin/slack} </usr/share/pixmaps/slack.png>
     [exec] (Start Syncthing) {/usr/bin/syncthing} </usr/share/icons/Moka/256x256/apps/syncthing.png>
     [exec] (Syncthing Web UI) {/usr/bin/syncthing} </usr/share/icons/Moka/256x256/apps/syncthing.png>
     [exec] (Thunderbird Mail) {thunderbird} </usr/share/pixmaps/thunderbird.xpm>
-    [exec] (Tor Browser Launcher Settings) {torbrowser-launcher} </usr/share/pixmaps/torbrowser.png>
-    [exec] (Tor Browser) {torbrowser-launcher} </usr/share/pixmaps/torbrowser.png>
     [exec] (Transmission) {transmission-gtk} </usr/share/pixmaps/transmission.xpm>
     [exec] (X11VNC Server) {x11vnc} </home/amol/.fluxbox/icons/computer.png>
     [exec] (Zoom) {/usr/bin/zoom} <>
@@ -86,7 +85,6 @@
     [exec] (qpdfview) {qpdfview} </usr/share/icons/Moka/256x256/apps/qpdfview.png>
   [end]
   [submenu] (Sound & Video) {} <>
-    [exec] (Audacious) {audacious} </home/amol/.fluxbox/icons/audacious.png>
     [exec] (Audacity) {audacity} </usr/share/icons/Moka/256x256/apps/audacity.png>
     [exec] (Cheese) {cheese} </usr/share/icons/Moka/256x256/apps/org.gnome.Cheese.png>
     [exec] (EasyTAG) {easytag} </usr/share/icons/Moka/256x256/apps/easytag.png>
@@ -94,6 +92,7 @@
     [exec] (GNOME MPV) {gnome-mpv} </usr/share/icons/Moka/256x256/apps/gnome-mpv.png>
     [exec] (gtkpod) {gtkpod} </usr/share/icons/Moka/256x256/apps/gtkpod.png>
     [exec] (Kazam) {kazam} </usr/share/icons/Moka/256x256/apps/kazam.png>
+    [exec] (LBRY) {/opt/LBRY/lbry} </usr/share/icons/hicolor/256x256/apps/lbry.png>
     [exec] (LXMusic simple music player) {lxmusic} </usr/share/pixmaps/lxmusic.png>
     [exec] (mpv Media Player) {mpv} </usr/share/icons/Moka/256x256/apps/gnome-mpv.png>
     [exec] (PulseAudio System Tray) {pasystray} </usr/share/pixmaps/pasystray.png>
@@ -101,7 +100,6 @@
     [exec] (Rhythmbox) {rhythmbox-client} </usr/share/icons/Moka/256x256/apps/rhythmbox.png>
     [exec] (Rhythmbox) {rhythmbox} </usr/share/icons/Moka/256x256/apps/rhythmbox.png>
     [exec] (SMPlayer) {smplayer} </usr/share/pixmaps/smplayer.xpm>
-    [exec] (Sonata) {sonata} </usr/share/pixmaps/sonata.png>
     [exec] (VLC media player) {/usr/bin/vlc} </usr/share/icons/Moka/256x256/apps/vlc.png>
   [end]
 [separator]
@@ -127,7 +125,6 @@
     [exec] (Logs) {gnome-logs} </usr/share/icons/Moka/256x256/apps/gnome-logs.png>
     [exec] (Power Statistics) {gnome-power-statistics} </usr/share/icons/hicolor/22x22/apps/org.gnome.PowerStats.png>
     [exec] (qps) {qps} </usr/share/icons/hicolor/48x48/apps/qps.png>
-    [exec] (ranger) {ranger} </home/amol/.fluxbox/icons/utilities-terminal.png>
     [exec] (Reactivate HP LaserJet 1018/1020 after reloading paper) {/usr/share/foo2zjs/hplj10xx_gui.tcl} </usr/share/pixmaps/hplj1020_icon.png>
     [exec] (Software) {gnome-software} </usr/share/icons/Moka/256x256/apps/org.gnome.Software.png>
     [exec] (Software Install) {gnome-software} </usr/share/icons/gnome/256x256/apps/system-software-install.png>

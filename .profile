@@ -52,7 +52,15 @@ fi
 set -o vi
 #cd ~/.fluxbox
 cd ~/.config/qtile
+
+alias pip2='/usr/bin/pip'
+alias python2='/usr/bin/python'
+alias pip='pip3'
+alias python='python3'
+
 date
 neofetch
 pwd
 
+
+export PATH="$HOME/.cargo/bin:$PATH"

@@ -1,5 +1,6 @@
 
   [exec] (Firefox Web Browser) {firefox} </usr/share/icons/Moka/256x256/apps/firefox.png>
+  [exec] (qutebrowser) {qutebrowser} </usr/share/pixmaps/qutebrowser.xpm>
   [exec] (Luakit) {nice luakit} </usr/share/pixmaps/luakit.png>
 
   [exec] (PCManFM File Manager) {pcmanfm} </usr/share/icons/oxygen/base/64x64/apps/system-file-manager.png>

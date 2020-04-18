@@ -88,6 +88,15 @@ set statusline+=\                   " Padding
 set statusline+=%L                  " Total line
 set statusline+=\                   " Padding
 
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+
 " Encoding
 set encoding=utf-8
 
@@ -110,4 +119,21 @@ set viminfo='100,<9999,s100
 colorscheme molokai
 
 set number
+
+execute pathogen#infect()
+
+"let g:airline_theme='dark'
+let g:airline_theme='simple'
+"let g:airline_theme='minimalist'
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#left_sep = ' '
+let g:airline#extensions#tabline#left_alt_sep = '|'
+let g:airline#extensions#tabline#formatter = 'default'
+
+"let g:indent_guides_enable_on_vim_startup = 1
+    ":IndentGuidesEnable
+    ":IndentGuidesDisable
+    ":IndentGuidesToggle
+
+set paste
 
