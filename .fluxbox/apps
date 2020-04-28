@@ -114,3 +114,13 @@
   [Dimensions]	{49% 49%}
   [Deco]	{NORMAL}
 [end]
+#[app] (name=) (class=)
+#  [Deco]	{NONE}
+#  [Sticky]	{yes}
+#  [Layer]	{12}
+#[end]
+[app] (name=Alacritty) (class=Alacritty)
+  [Dimensions]	{50% 50%}
+  [Deco]	{NONE}
+  [Maximized]	{no}
+[end]

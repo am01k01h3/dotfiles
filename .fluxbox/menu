@@ -6,6 +6,7 @@
   [submenu] (Accessories) {} <>
     [exec] (AllTray) {alltray} <>
     [exec] (Archive Manager) {file-roller} </usr/share/icons/Moka/256x256/apps/file-roller.png>
+    [exec] (balenaEtcher) {/opt/balenaEtcher/balena-etcher-electron} </usr/share/icons/hicolor/256x256/apps/balena-etcher-electron.png>
     [exec] (Bluetooth Transfer) {bluetooth-sendto} </usr/share/icons/oxygen/base/256x256/apps/preferences-system-bluetooth.png>
     [exec] (Caffeine Indicator) {/usr/bin/caffeine-indicator} </usr/share/pixmaps/caffeine.png>
     [exec] (Caffeine) {/usr/bin/caffeine} </usr/share/pixmaps/caffeine.png>
@@ -117,8 +118,11 @@
     [exec] (Color Picker) {gcm-picker} </usr/share/icons/Moka/256x256/apps/gnome-color-manager.png>
     [exec] (Color Profile Viewer) {gcm-viewer} </usr/share/icons/Moka/256x256/apps/gnome-color-manager.png>
     [exec] (Disk Usage Analyzer) {baobab} </usr/share/icons/Moka/256x256/apps/baobab.png>
+    [exec] (DOS emulator) {/usr/bin/xdosemu} </usr/share/pixmaps/dosemu.xpm>
+    [exec] (Enlightenment File Manager) {enlightenment_filemanager} </usr/share/icons/oxygen/base/64x64/apps/system-file-manager.png>
     [exec] (File Manager PCManFM) {pcmanfm} </usr/share/icons/oxygen/base/64x64/apps/system-file-manager.png>
     [exec] (GNOME System Monitor) {gnome-system-monitor} </usr/share/icons/oxygen/base/64x64/apps/utilities-system-monitor.png>
+    [exec] (GParted) {/usr/sbin/gparted} </usr/share/icons/Moka/256x256/apps/gparted.png>
     [exec] (Htop) {htop} </usr/share/pixmaps/htop.png>
     [exec] (ICC Profile Installer) {/usr/bin/gcm-import} </usr/share/icons/oxygen/base/256x256/mimetypes/application-vnd.iccprofile.png>
     [exec] (Keyboard Layout) {gkbd-keyboard-display} </usr/share/icons/oxygen/base/64x64/apps/preferences-desktop-keyboard.png>
@@ -126,6 +130,7 @@
     [exec] (Power Statistics) {gnome-power-statistics} </usr/share/icons/hicolor/22x22/apps/org.gnome.PowerStats.png>
     [exec] (qps) {qps} </usr/share/icons/hicolor/48x48/apps/qps.png>
     [exec] (Reactivate HP LaserJet 1018/1020 after reloading paper) {/usr/share/foo2zjs/hplj10xx_gui.tcl} </usr/share/pixmaps/hplj1020_icon.png>
+    [exec] (Sakura) {sakura} </usr/share/icons/Moka/256x256/apps/terminal-tango.png>
     [exec] (Software) {gnome-software} </usr/share/icons/Moka/256x256/apps/org.gnome.Software.png>
     [exec] (Software Install) {gnome-software} </usr/share/icons/gnome/256x256/apps/system-software-install.png>
     [exec] (System Monitor) {gnome-system-monitor} </usr/share/icons/oxygen/base/64x64/apps/utilities-system-monitor.png>
@@ -163,6 +168,7 @@
     [exec] (nitrogen) {nitrogen} </home/amol/.fluxbox/icons/nitrogen.png>
     [exec] (Notifications) {gnome-control-center} </usr/share/icons/gnome/256x256/apps/preferences-system-notifications.png>
     [exec] (Online Accounts) {gnome-control-center} </usr/share/icons/Moka/256x256/apps/goa-panel.png>
+    [exec] (OpenJDK Java 8 Policy Tool) {/usr/bin/policytool} </usr/share/pixmaps/openjdk-8.xpm>
     [exec] (Plank Preferences) {plank} </usr/share/icons/Moka/256x256/apps/plank.png>
     [exec] (Power) {gnome-control-center} </usr/share/icons/Moka/256x256/apps/gnome-power-manager.png>
     [exec] (Printers) {gnome-control-center} </usr/share/icons/oxygen/base/64x64/apps/preferences-desktop-printer.png>

@@ -1,14 +1,3 @@
-"                                 ___     
-"        ___        ___          /__/\    
-"       /__/\      /  /\        |  |::\   
-"       \  \:\    /  /:/        |  |:|:\  
-"        \  \:\  /__/::\      __|__|:|\:\ 
-"    ___  \__\:\ \__\/\:\__  /__/::::| \:\
-"   /__/\ |  |:|    \  \:\/\ \  \:\~~\__\/
-"   \  \:\|  |:|     \__\::/  \  \:\      
-"    \  \:\__|:|     /__/:/    \  \:\     
-"     \__\::::/      \__\/      \  \:\    
-"         ~~~~                   \__\/    
 
  " Set compatibility to Vim only.
 set nocompatible
@@ -63,6 +52,7 @@ set matchpairs+=<:>
 " Show line numbers
 set number
 highlight LineNr ctermfg=black
+"highlight LineNr ctermfg=darkgray
 
 " Set status line display
 set laststatus=2
@@ -116,15 +106,16 @@ set smartcase
 " 100kb of data. Useful for copying large amounts of data between files.
 set viminfo='100,<9999,s100
 
-colorscheme molokai
+"colorscheme molokai
+colorscheme monokai
 
-set number
+set nonumber
 
 execute pathogen#infect()
 
 "let g:airline_theme='dark'
-let g:airline_theme='simple'
 "let g:airline_theme='minimalist'
+let g:airline_theme='simple'
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#left_sep = ' '
 let g:airline#extensions#tabline#left_alt_sep = '|'
@@ -136,4 +127,7 @@ let g:airline#extensions#tabline#formatter = 'default'
     ":IndentGuidesToggle
 
 set paste
+
+"set dark background color
+highlight Normal ctermbg=black
 
