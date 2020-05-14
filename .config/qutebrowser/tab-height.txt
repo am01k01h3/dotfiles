@@ -1,0 +1,20 @@
+#TabsToolbar, .tabbrowser-tab {max-height: 28px !important;
+  margin-left: 1px !important;
+  margin-right: 1px !important;}
+
+And this is for tabs color:
+/* Change color of normal tabs */
+tab:not([selected="true"]) { background-color: #242424 !important;
+color: #70aaec !important;}
+
+/* Tab: selected colors */
+#tabbrowser-tabs .tabbrowser-tab[selected] .tab-content { background: #242424 !important;
+color: #70aaec !important;}
+/* Tab: hovered colors */
+#tabbrowser-tabs .tabbrowser-tab:hover:not([selected]) .tab-content {background: #242424 !important;
+color: #70aaec !important;}
+For tab bar color you can use this:
+/*AGENT_SHEET*/
+#main-window #navigator-toolbox #TabsToolbar:not(:-moz-lwtheme){
+  background: #303030 !important;
+}
