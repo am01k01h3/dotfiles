@@ -15,13 +15,14 @@
     [exec] (Characters) {gapplication} </usr/share/icons/Moka/256x256/apps/gnome-characters.png>
     [exec] (ClipIt) {clipit} <>
     [exec] (compton) {compton} </usr/share/icons/hicolor/48x48/apps/compton.png>
-    [exec] (Cryptomator) {/usr/bin/cryptomator} </usr/share/cryptomator/Cryptomator.png>
+    [exec] (Cryptomator) {/usr/bin/cryptomator} </usr/share/icons/hicolor/512x512/apps/org.cryptomator.Cryptomator.png>
     [exec] (FeatherPad) {featherpad} <>
     [exec] (Files) {nautilus} </usr/share/icons/Moka/256x256/apps/org.gnome.Nautilus.png>
     [exec] (Fonts) {gnome-font-viewer} </usr/share/icons/oxygen/base/64x64/apps/preferences-desktop-font.png>
     [exec] (GVim) {gvim} </usr/share/icons/Moka/256x256/apps/gvim.png>
     [exec] (Help) {yelp} </usr/share/icons/oxygen/base/64x64/apps/help-browser.png>
     [exec] (KeePassXC) {keepassxc} </usr/share/icons/hicolor/256x256/apps/keepassxc.png>
+    [exec] (Kupfer) {kupfer} </usr/share/icons/hicolor/64x64/apps/kupfer.png>
     [exec] (Maps) {gapplication} </usr/share/icons/Moka/256x256/web/org.gnome.Maps.png>
     [exec] (Neovim) {nvim} </usr/share/pixmaps/nvim.png>
     [exec] (OpenBazaar) {openbazaar2} </usr/share/pixmaps/openbazaar2.png>
@@ -109,8 +110,10 @@
   [end]
 [separator]
   [submenu] (System Tools) {} <>
+    [exec] (Alacritty) {alacritty} <>
     [exec] (AptURL) {apturl} </usr/share/applications/apturl.desktop>
     [exec] (Banner Designer) {gnome-software-editor} </usr/share/icons/Moka/256x256/apps/org.gnome.Software.png>
+    [exec] (Bashtop) {bashtop} </usr/share/pixmaps/bashtop.png>
     [exec] (Budgie Background Services) {budgie-daemon} </usr/share/applications/budgie-daemon.desktop>
     [exec] (Budgie Desktop Settings) {budgie-desktop-settings} </usr/share/icons/oxygen/base/256x256/categories/preferences-desktop.png>
     [exec] (Budgie Panel) {budgie-panel} </usr/share/applications/budgie-panel.desktop>
@@ -119,11 +122,10 @@
     [exec] (Color Profile Viewer) {gcm-viewer} </usr/share/icons/Moka/256x256/apps/gnome-color-manager.png>
     [exec] (Disk Usage Analyzer) {baobab} </usr/share/icons/Moka/256x256/apps/baobab.png>
     [exec] (DOS emulator) {/usr/bin/xdosemu} </usr/share/pixmaps/dosemu.xpm>
-    [exec] (Enlightenment File Manager) {enlightenment_filemanager} </usr/share/icons/oxygen/base/64x64/apps/system-file-manager.png>
     [exec] (File Manager PCManFM) {pcmanfm} </usr/share/icons/oxygen/base/64x64/apps/system-file-manager.png>
     [exec] (GNOME System Monitor) {gnome-system-monitor} </usr/share/icons/oxygen/base/64x64/apps/utilities-system-monitor.png>
     [exec] (GParted) {/usr/sbin/gparted} </usr/share/icons/Moka/256x256/apps/gparted.png>
-    [exec] (Htop) {htop} </usr/share/pixmaps/htop.png>
+    [exec] (Htop) {htop} </usr/share/pixmaps/bashtop.png>
     [exec] (ICC Profile Installer) {/usr/bin/gcm-import} </usr/share/icons/oxygen/base/256x256/mimetypes/application-vnd.iccprofile.png>
     [exec] (Keyboard Layout) {gkbd-keyboard-display} </usr/share/icons/oxygen/base/64x64/apps/preferences-desktop-keyboard.png>
     [exec] (Logs) {gnome-logs} </usr/share/icons/Moka/256x256/apps/gnome-logs.png>

@@ -5,19 +5,19 @@ control Mod1 Delete		:Exit
 control Mod4 r          :Restart
 
 ##### MENUS #####
-Mod4 space			:Exec xdotool mousemove 10 41; fluxbox-remote RootMenu
+Mod4 space				:Exec xdotool mousemove 10 41; fluxbox-remote RootMenu
 Control Escape			:rootmenu
-Mod1 space			:WindowMenu
+Mod1 space				:WindowMenu
 
 #Super_L				:ToggleCmd {HideMenus} {Exec xdotool mousemove 10 41; fluxbox-remote RootMenu}
-F1				:MacroCmd {HideMenus} {Exec xdotool mousemove 10 41; fluxbox-remote RootMenu}
+F1						:MacroCmd {HideMenus} {Exec xdotool mousemove 10 41; fluxbox-remote RootMenu}
 #Don't use F2 alone, since its commonly used in GUI file managers to rename files.
-#F2				:workspacemenu
-#F3				:ToggleCmd {HideMenus} {clientmenu (class!=[Cc]onky) (name!=tty-clock) }
-F3				:Exec skippy-xd
-F4				:MacroCmd {HideMenus} {custommenu ~/.fluxbox/allappsmenu}
-F10				:Exec xdotool mousemove 1900 41; fluxbox-remote 'CustomMenu ~/.fluxbox/exitmenu'
-Mod4 x			:Exec xdotool mousemove 1900 41; fluxbox-remote 'CustomMenu ~/.fluxbox/exitmenu'
+#F2						:workspacemenu
+#F3						:ToggleCmd {HideMenus} {clientmenu (class!=[Cc]onky) (name!=tty-clock) }
+F3						:Exec skippy-xd
+F4						:MacroCmd {HideMenus} {custommenu ~/.fluxbox/allappsmenu}
+F10						:Exec xdotool mousemove 1900 41; fluxbox-remote 'CustomMenu ~/.fluxbox/exitmenu'
+Mod4 x					:Exec xdotool mousemove 1900 41; fluxbox-remote 'CustomMenu ~/.fluxbox/exitmenu'
 
 OnDesktop Mouse1		:HideMenus
 #OnDesktop Mouse1		:ToggleCmd {HideMenus} {CustomMenu ~/.fluxbox/exitmenu}
@@ -30,30 +30,30 @@ OnTitlebar Mouse3		:windowmenu
 
 ############################################################
 #####			WINDOW				#####
-Mod1 F4                         :Close
-Mod4 q                          :Close
-Mod4 k                          :Kill
-Mod4 n                          :Minimize
-Mod4 m                          :Maximize
-Mod4 f                          :Fullscreen
-Mod4 s                          :Shade
-Mod4 t                          :ToggleDecor
-Mod4 a                          :ArrangeWindowsVertical (Name!=tint2) (class!=[Cc]onky) (name!=tty-clock)
-#Mod4 a                          :ArrangeWindows (Name!=tint2) (class!=[Cc]onky)
-#Mod4 h                          :ArrangeWindowsHorizontal (Name!=tint2) (class!=[Cc]onky)
-#Mod4 v                          :ArrangeWindowsVertical (Name!=tint2) (class!=[Cc]onky)
-Mod4 d                          :ShowDesktop (Name!=tint2) (class!=[Cc]onky) (name!=tty-clock)
+Mod1 F4                 :Close
+Mod4 q                  :Close
+Mod4 k                  :Kill
+Mod4 n                  :Minimize
+Mod4 m                  :Maximize
+Mod4 f                  :Fullscreen
+Mod4 s                  :Shade
+Mod4 t                  :ToggleDecor
+Mod4 a                  :ArrangeWindowsVertical (Name!=tint2) (class!=[Cc]onky) (name!=tty-clock)
+#Mod4 a                 :ArrangeWindows (Name!=tint2) (class!=[Cc]onky)
+#Mod4 h                 :ArrangeWindowsHorizontal (Name!=tint2) (class!=[Cc]onky)
+#Mod4 v                 :ArrangeWindowsVertical (Name!=tint2) (class!=[Cc]onky)
+Mod4 d                  :ShowDesktop (Name!=tint2) (class!=[Cc]onky) (name!=tty-clock)
 
-Mod4 Insert			:MacroCmd {Raise} {Focus} {MoveTo 0 0 TopLeft} {ResizeTo 50% 50%}
-Mod4 Prior 			:MacroCmd {Raise} {Focus} {MoveTo 0 0 TopRight} {ResizeTo 50% 50%}
-Mod4 Delete			:MacroCmd {Raise} {Focus} {MoveTo 0 0 BottomLeft} {ResizeTo 50% 50%}
-Mod4 Next			:MacroCmd {Raise} {Focus} {MoveTo 0 0 BottomRight} {ResizeTo 50% 50%}
-Mod4 Home			:MacroCmd {Raise} {Focus} {MoveTo 0 0 Center} {ResizeTo 50% 50%}
+Mod4 Insert				:MacroCmd {Raise} {Focus} {MoveTo 0 0 TopLeft} {ResizeTo 50% 50%}
+Mod4 Prior				:MacroCmd {Raise} {Focus} {MoveTo 0 0 TopRight} {ResizeTo 50% 50%}
+Mod4 Delete				:MacroCmd {Raise} {Focus} {MoveTo 0 0 BottomLeft} {ResizeTo 50% 50%}
+Mod4 Next				:MacroCmd {Raise} {Focus} {MoveTo 0 0 BottomRight} {ResizeTo 50% 50%}
+Mod4 Home				:MacroCmd {Raise} {Focus} {MoveTo 0 0 Center} {ResizeTo 50% 50%}
 
-Mod4 Left			:MacroCmd {HideMenus} {Raise} {Focus} {MoveLeft 240}
-Mod4 Right			:MacroCmd {HideMenus} {Raise} {Focus} {MoveRight 240}
-Mod4 Up 			:MacroCmd {Raise} {Focus} {MoveUp 130}
-Mod4 Down			:MacroCmd {Raise} {Focus} {MoveDown 130}
+Mod4 Left				:MacroCmd {HideMenus} {Raise} {Focus} {MoveLeft 240}
+Mod4 Right				:MacroCmd {HideMenus} {Raise} {Focus} {MoveRight 240}
+Mod4 Up 				:MacroCmd {Raise} {Focus} {MoveUp 130}
+Mod4 Down				:MacroCmd {Raise} {Focus} {MoveDown 130}
 
 Mod4 Shift Left			:MacroCmd {HideMenus} {Raise} {Focus} {MoveLeft 10}
 Mod4 Shift Right		:MacroCmd {HideMenus} {Raise} {Focus} {MoveRight 10}
@@ -65,64 +65,65 @@ Mod1 Mod4 Right			:MacroCmd {Raise} {Focus} {ResizeHorizontal 4}
 Mod1 Mod4 Up 			:MacroCmd {Raise} {Focus} {ResizeVertical -1}
 Mod1 Mod4 Down			:MacroCmd {Raise} {Focus} {ResizeVertical 1}
 
-Mod1 Mod4 Shift Left                    :MacroCmd {Raise} {Focus} {ResizeHorizontal -1}
-Mod1 Mod4 Shift Right                   :MacroCmd {Raise} {Focus} {ResizeHorizontal 1}
-Mod1 Mod4 Shift Up                      :MacroCmd {Raise} {Focus} {ResizeVertical -1}
-Mod1 Mod4 Shift Down                    :MacroCmd {Raise} {Focus} {ResizeVertical 1}
+Mod1 Mod4 Shift Left	:MacroCmd {Raise} {Focus} {ResizeHorizontal -1}
+Mod1 Mod4 Shift Right	:MacroCmd {Raise} {Focus} {ResizeHorizontal 1}
+Mod1 Mod4 Shift Up		:MacroCmd {Raise} {Focus} {ResizeVertical -1}
+Mod1 Mod4 Shift Down	:MacroCmd {Raise} {Focus} {ResizeVertical 1}
 
 # alt-tab
-Mod1 F2				:nextWindow (name!=tty-clock)
-Mod1 F3				:prevWindow (name!=tty-clock)
-Mod1 Tab                        :prevWindow {groups} (workspace=[current]) (name!=tty-clock)
-Mod1 Shift Tab                  :nextWindow {groups} (workspace=[current]) (name!=tty-clock)
-Mod1 grave                      :prevWindow {groups} (class=[current]) (name!=tty-clock)
+Mod1 F2					:nextWindow (name!=tty-clock)
+Mod1 F3					:prevWindow (name!=tty-clock)
+Mod1 Tab				:prevWindow {groups} (workspace=[current]) (name!=tty-clock)
+Mod1 Shift Tab			:nextWindow {groups} (workspace=[current]) (name!=tty-clock)
+Mod1 grave				:prevWindow {groups} (class=[current]) (name!=tty-clock)
 
 # Mac OS Style Apple/Command Tab Function
-Mod4 Tab			:prevGroup (Class!=[current]) (workspace=[current]) (name!=tty-clock)
+Mod4 Tab				:prevGroup (Class!=[current]) (workspace=[current]) (name!=tty-clock)
 
-#Control Mod1 Tab               :prevWindow {groups} (workspace=[all])
-#Control Mod1 Shift Tab         :nextWindow {groups} (workspace=[all])
+#Control Mod1 Tab		:prevWindow {groups} (workspace=[all])
+#Control Mod1 Shift Tab	:nextWindow {groups} (workspace=[all])
 
 # alt + left/right click to move/resize a window
-OnWindow Mod4 Mouse1           :MacroCmd {Raise} {Focus} {StartMoving}
-OnWindowBorder Move1            :StartMoving
-OnTitlebar Move1                :StartMoving
+OnWindow Mod4 Mouse1	:MacroCmd {Raise} {Focus} {StartMoving}
+OnWindowBorder Move1	:StartMoving
+OnTitlebar Move1		:StartMoving
 
-OnWindow Mod1 Mouse1            :MacroCmd {Raise} {Focus} {StartResizing NearestCornerOrEdge}
-OnLeftGrip Move1                :StartResizing bottomleft
-OnRightGrip Move1               :StartResizing bottomright
+OnWindow Mod1 Mouse1	:MacroCmd {Raise} {Focus} {StartResizing NearestCornerOrEdge}
+OnLeftGrip Move1		:StartResizing bottomleft
+OnRightGrip Move1		:StartResizing bottomright
 
 # double click on the titlebar to shade
-OnTitlebar Double Mouse1        :Maximize
+OnTitlebar Double Mouse1	:Maximize
 
 # left click on the titlebar to move the window
-OnTitlebar Mouse1               :MacroCmd {Raise} {Focus} {ActivateTab}
+OnTitlebar Mouse1		:MacroCmd {Raise} {Focus} {ActivateTab}
 
 
 ############################################################
 #####			Shortcuts			##### 
-Mod4 r				:Exec rofi -show drun -modi drun,run,window -show-icons -sidebar-mode -fake-transparency -terminal st -theme ~/.fluxbox/rofi/Siera-alt.rasi
+#Mod4 r					:Exec rofi -show drun -modi drun,run,window -show-icons -sidebar-mode -fake-transparency -terminal st -theme ~/.fluxbox/rofi/Siera-alt.rasi
+Mod4 r					:Exec rofi -show drun -modi drun,run,window -show-icons -sidebar-mode -fake-transparency -terminal st -theme ~/.fluxbox/rofi/arc-red-dark.rasi
 Mod1 Return				:Exec ~/.fluxbox/bin/dmenu-bind.sh
 #Control r				:Exec fbrun -w 300 -fg white -bg black -fh ~/.fluxbox/fbrun_history
 
-Mod1 F1				:ToggleCmd {Exec conky -c ~/.fluxbox/conky/ubuntu.conkyrc} {pkill conky}
+Mod1 F1					:ToggleCmd {Exec conky -c ~/.fluxbox/conky/ubuntu.conkyrc} {pkill conky}
 
 # Printscreen
-Print				:Exec ~/.fluxbox/bin/screenshot
+Print					:Exec ~/.fluxbox/bin/screenshot
 
-Mod4 e				:Exec pcmanfm ~
-#Mod4 e				:Exec rox-filer -n
+Mod4 e					:Exec pcmanfm -n
+#Mod4 e					:Exec rox-filer -n
 Control Mod1 t			:Exec urxvt
 #Mod4 Return			:Exec urxvt
-Mod4 Return			:Exec alacritty -e bash -l
-Mod1 Return			:Exec st -e bash -l
+Mod4 Return				:Exec alacritty -e bash -l
+Mod1 Return				:Exec st -e bash -l
 Control Mod1 i			:Exec qutebrowser
 #Control Mod1 i			:Exec surf start.duckduckgo.com
 Control Mod1 n			:Exec gedit
 
-#121				:Exec amixer sset Master,0 toggle
-#122				:Exec amixer sset Master,0 1-
-#123				:Exec amixer sset Master,0 1+
+#121					:Exec amixer sset Master,0 toggle
+#122					:Exec amixer sset Master,0 1-
+#123					:Exec amixer sset Master,0 1+
 #
 # sh -c "pactl set-sink-mute 0 false ; pactl set-sink-volume 0 -5%"
 # sh -c "pactl set-sink-mute 0 false ; pactl set-sink-volume 0 +5%"
@@ -130,34 +131,34 @@ Control Mod1 n			:Exec gedit
 
 ############################################################
 #####			WORKSPACE			#####
-Mod1 Left		:PrevWorkspace
-Mod1 Right		:NextWorkspace
+Mod1 Left				:PrevWorkspace
+Mod1 Right				:NextWorkspace
 
 # send the current window and follow it to previous/next workspace
-Control Mod1 Left			:TakeToPrevWorkspace
-Control Mod1 Right			:TakeToNextWorkspace
+Control Mod1 Left		:TakeToPrevWorkspace
+Control Mod1 Right		:TakeToNextWorkspace
 
 
 ############################################################
 #####			TABBING				#####
-OnTitlebar Ctrl Mouse1		:StartTabbing
+OnTitlebar Ctrl Mouse1	:StartTabbing
 OnTitlebar Mouse2		:StartTabbing
 
 # cycle through tabs in the current window
 #Shift Right			:NextTab
-#Shift Left			:PrevTab
+#Shift Left				:PrevTab
 
 ############################################################
 
 # change to a specific workspace
-Mod4 1				:Workspace 1
-Mod4 2				:Workspace 2
-Mod4 3				:Workspace 3
-Mod4 4				:Workspace 4
-Mod4 5				:Workspace 5
-Mod4 6				:Workspace 6
-Mod4 7				:Workspace 7
-Mod4 8				:Workspace 8
+Mod4 1					:Workspace 1
+Mod4 2					:Workspace 2
+Mod4 3					:Workspace 3
+Mod4 4					:Workspace 4
+Mod4 5					:Workspace 5
+Mod4 6					:Workspace 6
+Mod4 7					:Workspace 7
+Mod4 8					:Workspace 8
 
 # send the current window and change to a specific workspace
 Mod4 Shift 1			:TakeToWorkspace 1
@@ -170,14 +171,14 @@ Mod4 Shift 7			:TakeToWorkspace 7
 Mod4 Shift 8			:TakeToWorkspace 8
 
 # go to a specific tab in the current window
-#Mod4 1				:Tab 1
-#Mod4 2				:Tab 2
-#Mod4 3				:Tab 3
-#Mod4 4				:Tab 4
-#Mod4 5				:Tab 5
-#Mod4 6				:Tab 6
-#Mod4 7				:Tab 7
-#Mod4 8				:Tab 8
-#Mod4 9				:Tab 9
+#Mod4 1					:Tab 1
+#Mod4 2					:Tab 2
+#Mod4 3					:Tab 3
+#Mod4 4					:Tab 4
+#Mod4 5					:Tab 5
+#Mod4 6					:Tab 6
+#Mod4 7					:Tab 7
+#Mod4 8					:Tab 8
+#Mod4 9					:Tab 9
 
 ############################################################

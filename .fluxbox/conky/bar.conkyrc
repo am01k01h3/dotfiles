@@ -98,12 +98,12 @@ stippled_borders 0
 border_width 0
 
 # Default colors and also border colors
-default_color 888888
-#default_shade_color white
-#default_outline_color white
-default_shade_color 2c2c2c
-default_outline_color 2c2c2c
-own_window_colour 2c2c2c
+default_color			888888
+#default_shade_color	white
+#default_outline_color	white
+default_shade_color		2f343f
+default_outline_color	2f343f
+own_window_colour		2f343f
 
 color1 gray
 color2 888888
@@ -150,7 +150,8 @@ ${color}${upspeedgraph   wlp2s0 14,24 298876 298876} \
 ${color} down⬇${color3}\
 ${color2}${downspeedgraph wlp2s0 14,24  5599cc 5599cc}${endif}     \
     \
-${color}${time %b %d, %a} ${color5}${time %02k:%M}${color} 
+${color}${time %b %d, %a} ${color5}${time %I:%M}${color} 
+#${color}${time %b %d, %a} ${color5}${time %02k:%M}${color} 
 #${image /home/amol/.fluxbox/icons/stock_home.png -p 0,0 -s 24x24 }
 #${color}Swap:${alignr}$swap ${color3} /${color} $swapmax
 #${execi 1000 acpi 2>/dev/null | grep -q . && echo "Batt: "}${execi 10 acpi -b 2>/dev/null | cut -d" " -f 3,4 | sed 's/,$//'}
