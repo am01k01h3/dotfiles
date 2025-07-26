@@ -79,7 +79,7 @@ set statusline+=%L                  " Total line
 set statusline+=\                   " Padding
 
 set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
+"set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
 
 let g:syntastic_always_populate_loc_list = 1
@@ -111,7 +111,7 @@ colorscheme monokai
 
 set nonumber
 
-execute pathogen#infect()
+"execute pathogen#infect()
 
 "let g:airline_theme='dark'
 "let g:airline_theme='minimalist'
